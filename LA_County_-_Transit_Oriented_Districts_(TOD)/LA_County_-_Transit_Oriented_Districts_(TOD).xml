@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <origin/>
+                <title>LA County - Transit Oriented Districts (TOD)</title>
+                <onlink>https://arcgis.gis.lacounty.gov/arcgis/rest/services/DRP/Open_Data/MapServer/23</onlink>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>This layer represents the Transit Oriented Districts depicted in Figure 6.5 in the General Plan 2035. These are urban and suburban areas with access to major transit and commercial corridors that have the most potential for infill development, and are well-suited for higher density housing and mixed uses. With the exception of the East Los Angeles 3rd Street Specific Plan, and Willowbrook TOD Specific Plan, all of these are 1/2 mile buffers around a major transit stop.
+    
+Source: General Plan 2035, effective November 5, 2015; Last update: October 31, 2019 for the adoption of the Willowbrook TOD Specific Plan 
+Fore more information click here: http://planning.lacounty.gov/generalplan/generalplan</abstract>
+            <purpose>This layer represents the Transit Oriented Districts depicted in Figure 6.5 in the General Plan 2035. These are urban and suburban areas with access to major transit and commercial corridors that have the most potential for infill development...</purpose>
+        </descript>
+        <keywords>
+            <theme>
+                <themekt>None</themekt>
+                <themekey>LA County</themekey>
+                <themekey>TOD</themekey>
+                <themekey>Transit</themekey>
+                <themekey>External</themekey>
+                <themekey>Unmodified by SCAG</themekey>
+            </theme>
+        </keywords>
+        <accconst>Other Constraints</accconst>
+        <useconst>None</useconst>
+    </idinfo>
+    <metainfo>
+        <metd>20210318</metd>
+        <metc>
+            <cntinfo>
+                <!--no contact person or organization name available-->
+            </cntinfo>
+        </metc>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+    </metainfo>
+</metadata>
