@@ -1,0 +1,3894 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_9c2b2269c761b41c28e2a523e63bea36 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_9c2b2269c761b41c28e2a523e63bea36" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_9c2b2269c761b41c28e2a523e63bea36 = L.map(
+                "map_9c2b2269c761b41c28e2a523e63bea36",
+                {
+                    center: [34.052235, -118.243683],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_f5eab1df2d852964d9a83de22fa151ab = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_f5eab1df2d852964d9a83de22fa151ab.addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+            var marker_605eaef7a9be1b9e46ccc4c309737ebf = L.marker(
+                [34.045219, -118.243152],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_4545c10b1e50b8d5227caae3b85789ed = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ea5bcaf1f4378ff2c2589acdc91b3e69 = $(`<div id="html_ea5bcaf1f4378ff2c2589acdc91b3e69" style="width: 100.0%; height: 100.0%;"><b>Special Service For Groups -  Project 180</b><br>The agency provides advocacy, child care, HIV/AIDS services, holiday assistance, interpreter and translator services, personal goods, services for non-profit organizations, services for older adults, substance abuse services, and youth services in Los Angeles County.</div>`)[0];
+                popup_4545c10b1e50b8d5227caae3b85789ed.setContent(html_ea5bcaf1f4378ff2c2589acdc91b3e69);
+            
+        
+
+        marker_605eaef7a9be1b9e46ccc4c309737ebf.bindPopup(popup_4545c10b1e50b8d5227caae3b85789ed)
+        ;
+
+        
+    
+    
+            var marker_83cb282f3f594b03cc7d8b224d540dc6 = L.marker(
+                [34.03745995, -118.3175215],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_25c9d18cb011e1b92a822375b64a38c8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c7b74de18d9ce238848dcd1ac85c9183 = $(`<div id="html_c7b74de18d9ce238848dcd1ac85c9183" style="width: 100.0%; height: 100.0%;"><b>1736 Family Crisis Center</b><br>The agency provides case management, counseling services, domestic violence services, family support services for low income families, runaway services, emergency and transitional shelter for battered women and their children, shelter for runaway/homeless youth, and welfare-to-work support services.  Services are provided at two community service center locations in South Los Angeles and Torrance, an emergency youth shelter in Hermosa Beach, and four confidentially located domestic violence shelters.</div>`)[0];
+                popup_25c9d18cb011e1b92a822375b64a38c8.setContent(html_c7b74de18d9ce238848dcd1ac85c9183);
+            
+        
+
+        marker_83cb282f3f594b03cc7d8b224d540dc6.bindPopup(popup_25c9d18cb011e1b92a822375b64a38c8)
+        ;
+
+        
+    
+    
+            var marker_a6ed94faf34d660082af2f791060648e = L.marker(
+                [33.866842, -118.399235],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_c8f85cc0e72b90ac67565dd019573fc4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bba2f82e055c9fb7bc04d9a1a6ece682 = $(`<div id="html_bba2f82e055c9fb7bc04d9a1a6ece682" style="width: 100.0%; height: 100.0%;"><b>1736 Family Crisis Center - Emergency Youth Shelter</b><br>The agency provides case management, counseling services, domestic violence services, family support services for low income families, runaway services, emergency and transitional shelter for battered women and their children, shelter for runaway/homeless youth, and welfare-to-work support services.</div>`)[0];
+                popup_c8f85cc0e72b90ac67565dd019573fc4.setContent(html_bba2f82e055c9fb7bc04d9a1a6ece682);
+            
+        
+
+        marker_a6ed94faf34d660082af2f791060648e.bindPopup(popup_c8f85cc0e72b90ac67565dd019573fc4)
+        ;
+
+        
+    
+    
+            var marker_d213b067b3cc6d058515ab832545f7bd = L.marker(
+                [34.145581, -118.001196],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_b25ddb55170bfcb06e0da805e8eca712 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8b8c5fb765020c7024f9d0b3c6837a82 = $(`<div id="html_8b8c5fb765020c7024f9d0b3c6837a82" style="width: 100.0%; height: 100.0%;"><b>Santa Anita Family Service</b><br>The agency provides CalFresh services, child abuse services, counseling services, domestic violence services, drug abuse services and services for older adults.</div>`)[0];
+                popup_b25ddb55170bfcb06e0da805e8eca712.setContent(html_8b8c5fb765020c7024f9d0b3c6837a82);
+            
+        
+
+        marker_d213b067b3cc6d058515ab832545f7bd.bindPopup(popup_b25ddb55170bfcb06e0da805e8eca712)
+        ;
+
+        
+    
+    
+            var marker_7252985e9dec54e23cfb3c0bd8bf86c7 = L.marker(
+                [34.10246354, -118.0975893],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_87161749a345bfe4edad764bf2cf9372 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_91e61cfbb2a05b61a56b39d046c29e2f = $(`<div id="html_91e61cfbb2a05b61a56b39d046c29e2f" style="width: 100.0%; height: 100.0%;"><b>Santa Anita Family Service - San Gabriel</b><br>The agency provides CalFresh services, child abuse services, counseling services, domestic violence services, drug abuse services and services for older adults.</div>`)[0];
+                popup_87161749a345bfe4edad764bf2cf9372.setContent(html_91e61cfbb2a05b61a56b39d046c29e2f);
+            
+        
+
+        marker_7252985e9dec54e23cfb3c0bd8bf86c7.bindPopup(popup_87161749a345bfe4edad764bf2cf9372)
+        ;
+
+        
+    
+    
+            var marker_aaec7a9aaa5fb6fa98f2b9bd0e04da6c = L.marker(
+                [34.101823, -118.321473],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_b12fc970081d31b58532938cd6274572 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a68f059f364757dc6597d15aa9099b6d = $(`<div id="html_a68f059f364757dc6597d15aa9099b6d" style="width: 100.0%; height: 100.0%;"><b>Children's Hosptial Los Angeles - High Risk Youth Program - Saban Free Clinic</b><br>The agency provides health services and homeless support services for youth age 12 to 24 in the Hollywood area.</div>`)[0];
+                popup_b12fc970081d31b58532938cd6274572.setContent(html_a68f059f364757dc6597d15aa9099b6d);
+            
+        
+
+        marker_aaec7a9aaa5fb6fa98f2b9bd0e04da6c.bindPopup(popup_b12fc970081d31b58532938cd6274572)
+        ;
+
+        
+    
+    
+            var marker_d10071fea66d1a4d7ca60c2dc726f466 = L.marker(
+                [34.09787921, -118.2984449],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_b66531f49219df7e5d25d8d1fc9dce3e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c49a7e7a0c7c15db2dc314e13a598173 = $(`<div id="html_c49a7e7a0c7c15db2dc314e13a598173" style="width: 100.0%; height: 100.0%;"><b>Children's Hosptial Los Angeles - High Risk Youth Program</b><br>The agency provides health services and homeless support services for youth age 12 to 24 in the Hollywood area.</div>`)[0];
+                popup_b66531f49219df7e5d25d8d1fc9dce3e.setContent(html_c49a7e7a0c7c15db2dc314e13a598173);
+            
+        
+
+        marker_d10071fea66d1a4d7ca60c2dc726f466.bindPopup(popup_b66531f49219df7e5d25d8d1fc9dce3e)
+        ;
+
+        
+    
+    
+            var marker_deb98199815fd0e256cc948973530982 = L.marker(
+                [34.05281504, -118.3237936],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_11db8ed4d7005ecadd9382092ffc3c04 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1e996dadbe466440450f0babece3c61e = $(`<div id="html_1e996dadbe466440450f0babece3c61e" style="width: 100.0%; height: 100.0%;"><b>Center For The Pacific Asian Family Inc</b><br>The center provides child abuse services, domestic violence services, shelter, sexual assault services, volunteer opportunities, and welfare-to-work support services.</div>`)[0];
+                popup_11db8ed4d7005ecadd9382092ffc3c04.setContent(html_1e996dadbe466440450f0babece3c61e);
+            
+        
+
+        marker_deb98199815fd0e256cc948973530982.bindPopup(popup_11db8ed4d7005ecadd9382092ffc3c04)
+        ;
+
+        
+    
+    
+            var marker_28cd4e63fdb85977c5b5878013c3f8c8 = L.marker(
+                [34.101863, -118.319256],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_cc263296cd7273d2c6017cc0912bc157 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5e4221b348e56d1d68f0b308ab4e1402 = $(`<div id="html_5e4221b348e56d1d68f0b308ab4e1402" style="width: 100.0%; height: 100.0%;"><b>Salvation Army - The Way In</b><br>The center provides holiday assistance, runaway services and shelter for homeless youth who are in the Hollywood area.</div>`)[0];
+                popup_cc263296cd7273d2c6017cc0912bc157.setContent(html_5e4221b348e56d1d68f0b308ab4e1402);
+            
+        
+
+        marker_28cd4e63fdb85977c5b5878013c3f8c8.bindPopup(popup_cc263296cd7273d2c6017cc0912bc157)
+        ;
+
+        
+    
+    
+            var marker_e7c0966df2b43b68fb925ed76b950442 = L.marker(
+                [34.69788341, -118.1384319],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_1ec1562a7c71c57d001cdabdac060c33 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_802b9a30762758045a6dabc2e754a380 = $(`<div id="html_802b9a30762758045a6dabc2e754a380" style="width: 100.0%; height: 100.0%;"><b>Catalyst Foundation , The</b><br>The foundation provides emergency food and HIV/AIDS services for Antelope Valley residents.</div>`)[0];
+                popup_1ec1562a7c71c57d001cdabdac060c33.setContent(html_802b9a30762758045a6dabc2e754a380);
+            
+        
+
+        marker_e7c0966df2b43b68fb925ed76b950442.bindPopup(popup_1ec1562a7c71c57d001cdabdac060c33)
+        ;
+
+        
+    
+    
+            var marker_66ed6a3a3f5450a4826878d28a482b68 = L.marker(
+                [34.149138, -118.437066],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_a7256a185d20d6326ad68ab5f80763f3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e7167684d772499fe95c5cf5cc2c35bd = $(`<div id="html_e7167684d772499fe95c5cf5cc2c35bd" style="width: 100.0%; height: 100.0%;"><b>Jewish Family Service Of Los Angeles - Family Violence Project</b><br>The project provides domestic violence services, shelter and welfare-to-work support services for victims of domestic violence.</div>`)[0];
+                popup_a7256a185d20d6326ad68ab5f80763f3.setContent(html_e7167684d772499fe95c5cf5cc2c35bd);
+            
+        
+
+        marker_66ed6a3a3f5450a4826878d28a482b68.bindPopup(popup_a7256a185d20d6326ad68ab5f80763f3)
+        ;
+
+        
+    
+    
+            var marker_410383e85c838b8539ca1ebbb3655087 = L.marker(
+                [34.181243, -118.306259],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_633822df85a1e263b34b26be292cfa9c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4a4376581b7ebd53af0768f691d9c0d5 = $(`<div id="html_4a4376581b7ebd53af0768f691d9c0d5" style="width: 100.0%; height: 100.0%;"><b>Salvation Army Corps Community Center - Burbank</b><br>This agency provides counseling services, emergency food, holiday assistance, recreational programs and utility bill assistance for families, couples, and individuals who live in Burbank, North Hollywood, Sun Valley, Sunland and Tujunga.</div>`)[0];
+                popup_633822df85a1e263b34b26be292cfa9c.setContent(html_4a4376581b7ebd53af0768f691d9c0d5);
+            
+        
+
+        marker_410383e85c838b8539ca1ebbb3655087.bindPopup(popup_633822df85a1e263b34b26be292cfa9c)
+        ;
+
+        
+    
+    
+            var marker_bed050fad917944af6a41e1c12bc9ff6 = L.marker(
+                [34.08552, -118.029564],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_396afdd62a46da68dbdd61efe0f728aa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_47e132ed648a7a880947bc4ab5404f4e = $(`<div id="html_47e132ed648a7a880947bc4ab5404f4e" style="width: 100.0%; height: 100.0%;"><b>Our Saviour Center</b><br>This center provides, emergency food, family planning, health services, recreational programs, and shelter for low-income people who live in El Monte and South El Monte.</div>`)[0];
+                popup_396afdd62a46da68dbdd61efe0f728aa.setContent(html_47e132ed648a7a880947bc4ab5404f4e);
+            
+        
+
+        marker_bed050fad917944af6a41e1c12bc9ff6.bindPopup(popup_396afdd62a46da68dbdd61efe0f728aa)
+        ;
+
+        
+    
+    
+            var marker_509058f14cb495c4f299c5caf71d1108 = L.marker(
+                [34.042306, -118.246748],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_66c51319b3a711ed52eb3d9407a7ec90 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e01ef9a3ee6ac37b060e8760f31ba1e1 = $(`<div id="html_e01ef9a3ee6ac37b060e8760f31ba1e1" style="width: 100.0%; height: 100.0%;"><b>Lamp Community - Frank Rice Access Center</b><br>The agency provides homeless support services and shelter for adults who have chronic mental illness and who are in Skid Row and downtown Los Angeles, including people who are undocumented or who have developmental disabilities or a dual diagnosis of mental illness and substance abuse.</div>`)[0];
+                popup_66c51319b3a711ed52eb3d9407a7ec90.setContent(html_e01ef9a3ee6ac37b060e8760f31ba1e1);
+            
+        
+
+        marker_509058f14cb495c4f299c5caf71d1108.bindPopup(popup_66c51319b3a711ed52eb3d9407a7ec90)
+        ;
+
+        
+    
+    
+            var marker_e0c51b3041187a8bd46a97d7b975ebe4 = L.marker(
+                [33.97583807, -118.0335874],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_04ba1e6db64585620aa84485d32ab181 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_691fce50ae8ed21c678ee894c981d0fb = $(`<div id="html_691fce50ae8ed21c678ee894c981d0fb" style="width: 100.0%; height: 100.0%;"><b>Women's And Children's Crisis Shelter</b><br>The agency provides domestic violence services for low-income victims of intimate partner domestic violence and their children from all areas of Los Angeles County.</div>`)[0];
+                popup_04ba1e6db64585620aa84485d32ab181.setContent(html_691fce50ae8ed21c678ee894c981d0fb);
+            
+        
+
+        marker_e0c51b3041187a8bd46a97d7b975ebe4.bindPopup(popup_04ba1e6db64585620aa84485d32ab181)
+        ;
+
+        
+    
+    
+            var marker_4b01bdbbcedb7741e44c719a2e89d532 = L.marker(
+                [34.06798248, -118.2738302],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_2bf387275fb4e1ef05fec04f383957f0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_97cc53c9d2d01892aa47cf37f1594be0 = $(`<div id="html_97cc53c9d2d01892aa47cf37f1594be0" style="width: 100.0%; height: 100.0%;"><b>Homeless Health Care Los Angeles</b><br>The agency provides education services, substance abuse services for co-occuring disorders, and welfare-to-work support services for homeless people in downtown Los Angeles and for agencies that work with homeless individuals in Los Angeles County.</div>`)[0];
+                popup_2bf387275fb4e1ef05fec04f383957f0.setContent(html_97cc53c9d2d01892aa47cf37f1594be0);
+            
+        
+
+        marker_4b01bdbbcedb7741e44c719a2e89d532.bindPopup(popup_2bf387275fb4e1ef05fec04f383957f0)
+        ;
+
+        
+    
+    
+            var marker_cf8b8bfc9fd35b08b4e82527092e7364 = L.marker(
+                [34.04338459, -118.2441901],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_8c86cdf309512a40984c091faaf310a0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ef823cc3964f84251aad3fd24c88a65a = $(`<div id="html_ef823cc3964f84251aad3fd24c88a65a" style="width: 100.0%; height: 100.0%;"><b>Lamp Community</b><br>The agency provides homeless support services and shelter for adults who have chronic mental illness and who are in Skid Row and downtown Los Angeles, including people who are undocumented or who have developmental disabilities or a dual diagnosis of mental illness and substance abuse.</div>`)[0];
+                popup_8c86cdf309512a40984c091faaf310a0.setContent(html_ef823cc3964f84251aad3fd24c88a65a);
+            
+        
+
+        marker_cf8b8bfc9fd35b08b4e82527092e7364.bindPopup(popup_8c86cdf309512a40984c091faaf310a0)
+        ;
+
+        
+    
+    
+            var marker_a3eceaa33d3a18ef242e7e5d2312d93f = L.marker(
+                [34.15745402, -118.1419479],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_21195417ddb58770cabbc51bc82c8594 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_24cf0408374aed20b0f3c4c481be7568 = $(`<div id="html_24cf0408374aed20b0f3c4c481be7568" style="width: 100.0%; height: 100.0%;"><b>Door Of Hope</b><br>The Agency Provides Christian-Oriented Transitional Housing For Two-Parent Families With Up To Four Children 10 Years And Younger.  Families Must Be Highly-Motivated To Improve Their Situation And To Become Self-Sufficient.  There Are No Geographic Restr</div>`)[0];
+                popup_21195417ddb58770cabbc51bc82c8594.setContent(html_24cf0408374aed20b0f3c4c481be7568);
+            
+        
+
+        marker_a3eceaa33d3a18ef242e7e5d2312d93f.bindPopup(popup_21195417ddb58770cabbc51bc82c8594)
+        ;
+
+        
+    
+    
+            var marker_29e5e8701f17ccf8dc62d8ce015f9731 = L.marker(
+                [34.02106891, -118.1865446],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_77eea150df2a1523995b6468278c52c0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_25ec06e2c91adde044ef98f63a1b102a = $(`<div id="html_25ec06e2c91adde044ef98f63a1b102a" style="width: 100.0%; height: 100.0%;"><b>Scadp - Casa Libre Residential Services</b><br>The Agency Provides Domestic Violence Services Targeted To Tanf Recipients, Hiv/Aids. Services, Residential Treatment For Substance Abuse,Substance Abuse Services And Youth Services For People Of All Ages In Los Angeles County.</div>`)[0];
+                popup_77eea150df2a1523995b6468278c52c0.setContent(html_25ec06e2c91adde044ef98f63a1b102a);
+            
+        
+
+        marker_29e5e8701f17ccf8dc62d8ce015f9731.bindPopup(popup_77eea150df2a1523995b6468278c52c0)
+        ;
+
+        
+    
+    
+            var marker_48d33ef56d7689dc0119c26c1d67eb47 = L.marker(
+                [33.73937844, -118.2880817],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_2a351dd7673ea9503280854d1e8743b5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3ba61516428278e60b2d7777b109bc0c = $(`<div id="html_3ba61516428278e60b2d7777b109bc0c" style="width: 100.0%; height: 100.0%;"><b>Wecan House</b><br>The Agency Provides Drug Abuse Services, Family Life Education, A Transitional Shelter, And Welfare-To-Work Support Services To People In The South Bay, Harbor Gateway And Long Beach Areas.  Age And Geographic Restrictions Apply For Some Services.</div>`)[0];
+                popup_2a351dd7673ea9503280854d1e8743b5.setContent(html_3ba61516428278e60b2d7777b109bc0c);
+            
+        
+
+        marker_48d33ef56d7689dc0119c26c1d67eb47.bindPopup(popup_2a351dd7673ea9503280854d1e8743b5)
+        ;
+
+        
+    
+    
+            var marker_6a09d744ff16d8c1996d32c6da64a167 = L.marker(
+                [34.14985049, -118.124649],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_97efde383c383b44ec6b2ef0f734a400 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ff46199873743319d8288692f5a9efcd = $(`<div id="html_ff46199873743319d8288692f5a9efcd" style="width: 100.0%; height: 100.0%;"><b>Serra Project, The</b><br>The Agency Provides Housing Services And Transitional Shelter For Men And Women With Children Who Have Aids. Or Are Hiv Positive In Los Angeles County.</div>`)[0];
+                popup_97efde383c383b44ec6b2ef0f734a400.setContent(html_ff46199873743319d8288692f5a9efcd);
+            
+        
+
+        marker_6a09d744ff16d8c1996d32c6da64a167.bindPopup(popup_97efde383c383b44ec6b2ef0f734a400)
+        ;
+
+        
+    
+    
+            var marker_e96294c825b6d91d7b67c79f3a38c928 = L.marker(
+                [33.89643599, -118.1927356],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_c4cb225475047dfb9c8769b78ec2a47e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a1982aa2fe9db379b3f86a77b99ab80d = $(`<div id="html_a1982aa2fe9db379b3f86a77b99ab80d" style="width: 100.0%; height: 100.0%;"><b>Homeless Shelter For Women And Children</b><br>The Agency Provides Shelter For Homeless Single Women And Women With Children Who Are In Los Angeles County.  The Shelter May Assist Women Who Have Mental/Emotional Problems; The Shelter Is Also Accessible For Women Who Use Wheelchairs.</div>`)[0];
+                popup_c4cb225475047dfb9c8769b78ec2a47e.setContent(html_a1982aa2fe9db379b3f86a77b99ab80d);
+            
+        
+
+        marker_e96294c825b6d91d7b67c79f3a38c928.bindPopup(popup_c4cb225475047dfb9c8769b78ec2a47e)
+        ;
+
+        
+    
+    
+            var marker_5cc81f60bc79ca9b0b13289a658288dc = L.marker(
+                [34.16927385, -118.1360999],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_d9d808f78702237735d625aff0f29bd4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e47165433f7c06d74338ea5f16e95197 = $(`<div id="html_e47165433f7c06d74338ea5f16e95197" style="width: 100.0%; height: 100.0%;"><b>Urdc Human Services Corporation - Casa Maria</b><br>The Agency Provides Shelter For Homeless Women Age 18 And Older Who Have A History Of Substance Abuse And Who Are In Pasadena.</div>`)[0];
+                popup_d9d808f78702237735d625aff0f29bd4.setContent(html_e47165433f7c06d74338ea5f16e95197);
+            
+        
+
+        marker_5cc81f60bc79ca9b0b13289a658288dc.bindPopup(popup_d9d808f78702237735d625aff0f29bd4)
+        ;
+
+        
+    
+    
+            var marker_33c35f7dc6cfe894873dc38630da04e7 = L.marker(
+                [34.02738892, -118.4937729],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_c489f5de8a3d06ced7de1bc5d06eff0e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9d40b1d382a5a55acca51a0b62dd6fa9 = $(`<div id="html_9d40b1d382a5a55acca51a0b62dd6fa9" style="width: 100.0%; height: 100.0%;"><b>Upward Bound - Family Place</b><br>The Agency Provides Transitional Shelter For Homeless Families With Children In West Los Angeles County.  Services Are Restricted To Santa Monica And West Los Angeles Residents.</div>`)[0];
+                popup_c489f5de8a3d06ced7de1bc5d06eff0e.setContent(html_9d40b1d382a5a55acca51a0b62dd6fa9);
+            
+        
+
+        marker_33c35f7dc6cfe894873dc38630da04e7.bindPopup(popup_c489f5de8a3d06ced7de1bc5d06eff0e)
+        ;
+
+        
+    
+    
+            var marker_5ca225f4b076585b6066e1c914b6b5a3 = L.marker(
+                [34.05114328, -117.7727741],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_7de648bb8f39ded694cac11812e9e3b5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_487cb885f41a76cf64242955b9573470 = $(`<div id="html_487cb885f41a76cf64242955b9573470" style="width: 100.0%; height: 100.0%;"><b>Foothill Family Shelter</b><br>The Agency Provides Transitional Shelter For Homeless Families With Children.  It Is Not An Emergency Shelter.</div>`)[0];
+                popup_7de648bb8f39ded694cac11812e9e3b5.setContent(html_487cb885f41a76cf64242955b9573470);
+            
+        
+
+        marker_5ca225f4b076585b6066e1c914b6b5a3.bindPopup(popup_7de648bb8f39ded694cac11812e9e3b5)
+        ;
+
+        
+    
+    
+            var marker_18131bc3a4ef8db4b004792c6617e76c = L.marker(
+                [34.05753854, -118.2657894],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_29ba973aeb5488b709bbeeb69f0e7dcf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3fe6795ed0b990b35fa8899a54eafcdb = $(`<div id="html_3fe6795ed0b990b35fa8899a54eafcdb" style="width: 100.0%; height: 100.0%;"><b>La Posada</b><br>The Agency Provides Transitional Shelter For Single Women With A Child Or Pregnant With Their First Child.</div>`)[0];
+                popup_29ba973aeb5488b709bbeeb69f0e7dcf.setContent(html_3fe6795ed0b990b35fa8899a54eafcdb);
+            
+        
+
+        marker_18131bc3a4ef8db4b004792c6617e76c.bindPopup(popup_29ba973aeb5488b709bbeeb69f0e7dcf)
+        ;
+
+        
+    
+    
+            var marker_c176e0d757b017d0d6c4e20a7af05bd6 = L.marker(
+                [33.78338881, -118.1941278],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_31e955b18dcbce0e9e24b1465e9e441e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_beb7426f141e16213fd38f070aeb4f71 = $(`<div id="html_beb7426f141e16213fd38f070aeb4f71" style="width: 100.0%; height: 100.0%;"><b>Long Beach Rescue Mission</b><br>The agency provides emergency food, shelter, clothing, counsel, spiritually-based adult rehabilitation transitional housing programs.</div>`)[0];
+                popup_31e955b18dcbce0e9e24b1465e9e441e.setContent(html_beb7426f141e16213fd38f070aeb4f71);
+            
+        
+
+        marker_c176e0d757b017d0d6c4e20a7af05bd6.bindPopup(popup_31e955b18dcbce0e9e24b1465e9e441e)
+        ;
+
+        
+    
+    
+            var marker_7d62d130ccf691cab61c652597df65d6 = L.marker(
+                [34.013876, -118.488089],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_b46e8c622ab6f29c8aa502d76a3e4f8a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_475478c6bd4386dfb880366f4c379168 = $(`<div id="html_475478c6bd4386dfb880366f4c379168" style="width: 100.0%; height: 100.0%;"><b>Ocean Park Community Center - Access Center</b><br>The agency administers a variety of services including counseling, clothing, emergency food, homeless support services, shelter and volunteer opportunities for people who live in the Santa Monica and West Los Angeles areas.</div>`)[0];
+                popup_b46e8c622ab6f29c8aa502d76a3e4f8a.setContent(html_475478c6bd4386dfb880366f4c379168);
+            
+        
+
+        marker_7d62d130ccf691cab61c652597df65d6.bindPopup(popup_b46e8c622ab6f29c8aa502d76a3e4f8a)
+        ;
+
+        
+    
+    
+            var marker_622ae054a6c7314f8dc74295dd9995a7 = L.marker(
+                [34.013654, -118.489091],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_7e2da298702d262029bddda0debb37b7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d2c1b4ae4632bad9e02971f25839a786 = $(`<div id="html_d2c1b4ae4632bad9e02971f25839a786" style="width: 100.0%; height: 100.0%;"><b>Ocean Park Community Center - Samoshel</b><br>The agency administers a variety of services including counseling, clothing, emergency food, homeless support services, shelter and volunteer opportunities for people who live in the Santa Monica and West Los Angeles areas.</div>`)[0];
+                popup_7e2da298702d262029bddda0debb37b7.setContent(html_d2c1b4ae4632bad9e02971f25839a786);
+            
+        
+
+        marker_622ae054a6c7314f8dc74295dd9995a7.bindPopup(popup_7e2da298702d262029bddda0debb37b7)
+        ;
+
+        
+    
+    
+            var marker_b3ea2bf8d9878dbb29708a1f1956a858 = L.marker(
+                [34.197262, -118.600859],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_846b081a6d0b34b50cd02a8cf0ac28d3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2f0e2443355b71e9899487fd1277ac34 = $(`<div id="html_2f0e2443355b71e9899487fd1277ac34" style="width: 100.0%; height: 100.0%;"><b>Catholic Charities Of Los Angeles - Guadalupe Community Center</b><br>The agency is a community center which provides adult education, early childhood education, emergency food (through its Loaves and Fishes IV program), employment services for refugees, holiday assistance, youth recreation programs and senior programs for people in a specific area of the San Fernando Valley.</div>`)[0];
+                popup_846b081a6d0b34b50cd02a8cf0ac28d3.setContent(html_2f0e2443355b71e9899487fd1277ac34);
+            
+        
+
+        marker_b3ea2bf8d9878dbb29708a1f1956a858.bindPopup(popup_846b081a6d0b34b50cd02a8cf0ac28d3)
+        ;
+
+        
+    
+    
+            var marker_a878b97c502345d8a6fda3a5a28be442 = L.marker(
+                [33.93814532, -118.2566701],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_9120e4fb919821bd4fb4b60f08c2fdc0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0824ee7ee3073d6d6b052abb75d8d170 = $(`<div id="html_0824ee7ee3073d6d6b052abb75d8d170" style="width: 100.0%; height: 100.0%;"><b>Watts Labor Community Action Committee - Homeless Access Center</b><br>The agency provides a homeless support services access center and shelter services, primarily for families who live in Los Angeles zip code 90059.</div>`)[0];
+                popup_9120e4fb919821bd4fb4b60f08c2fdc0.setContent(html_0824ee7ee3073d6d6b052abb75d8d170);
+            
+        
+
+        marker_a878b97c502345d8a6fda3a5a28be442.bindPopup(popup_9120e4fb919821bd4fb4b60f08c2fdc0)
+        ;
+
+        
+    
+    
+            var marker_f1781366d045902f21d750427670ab37 = L.marker(
+                [34.052048, -118.22259],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_f1b13e42020cd85f3adfb3e52de839d2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_644960f37a01b7a0de80a2ba8560f828 = $(`<div id="html_644960f37a01b7a0de80a2ba8560f828" style="width: 100.0%; height: 100.0%;"><b>Jovenes Inc - La Posada Shelter</b><br>The agency provides a multipurpose center which offers a variety of services for people who are in the Los Angeles area.</div>`)[0];
+                popup_f1b13e42020cd85f3adfb3e52de839d2.setContent(html_644960f37a01b7a0de80a2ba8560f828);
+            
+        
+
+        marker_f1781366d045902f21d750427670ab37.bindPopup(popup_f1b13e42020cd85f3adfb3e52de839d2)
+        ;
+
+        
+    
+    
+            var marker_7e2e285ec4b7b77ea16e539ea6d999a8 = L.marker(
+                [33.998086, -118.478322],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_85aa6c3507a7d88dd28cc4ddcad83aaa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7de4827893d1e52e23b15ed4e65e7503 = $(`<div id="html_7de4827893d1e52e23b15ed4e65e7503" style="width: 100.0%; height: 100.0%;"><b>St. Joseph Center</b><br>The agency provides a variety of emergency and ongoing programs to assist low-income and homeless individuals and families in the West Los Angeles area.</div>`)[0];
+                popup_85aa6c3507a7d88dd28cc4ddcad83aaa.setContent(html_7de4827893d1e52e23b15ed4e65e7503);
+            
+        
+
+        marker_7e2e285ec4b7b77ea16e539ea6d999a8.bindPopup(popup_85aa6c3507a7d88dd28cc4ddcad83aaa)
+        ;
+
+        
+    
+    
+            var marker_6c9ada985ca11623385b8ae03ed1e775 = L.marker(
+                [34.000823, -118.46643],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_afa7f241f51b25229b85515dc1532e67 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_25c79391afc39112a5bcc9ffabb289f1 = $(`<div id="html_25c79391afc39112a5bcc9ffabb289f1" style="width: 100.0%; height: 100.0%;"><b>St. Joseph Center - Homeless Service Center</b><br>The agency provides a variety of emergency and ongoing programs to assist low-income and homeless individuals and families in the West Los Angeles area.</div>`)[0];
+                popup_afa7f241f51b25229b85515dc1532e67.setContent(html_25c79391afc39112a5bcc9ffabb289f1);
+            
+        
+
+        marker_6c9ada985ca11623385b8ae03ed1e775.bindPopup(popup_afa7f241f51b25229b85515dc1532e67)
+        ;
+
+        
+    
+    
+            var marker_03ed1c519f52770f18081594f31a1568 = L.marker(
+                [33.735031, -118.291424],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_175b7015a66e3fbd914b195aa400b530 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b406a548902e599f25b1514d5b62cf8f = $(`<div id="html_b406a548902e599f25b1514d5b62cf8f" style="width: 100.0%; height: 100.0%;"><b>Harbor Interfaith Family Shelter Program</b><br>The agency provides advocacy services, emergency food, employment services, information and referral and shelter for people who live in the South Bay area.</div>`)[0];
+                popup_175b7015a66e3fbd914b195aa400b530.setContent(html_b406a548902e599f25b1514d5b62cf8f);
+            
+        
+
+        marker_03ed1c519f52770f18081594f31a1568.bindPopup(popup_175b7015a66e3fbd914b195aa400b530)
+        ;
+
+        
+    
+    
+            var marker_6c3dd39bcbffe17546144763035fb40a = L.marker(
+                [33.990383, -118.278663],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_39b0a12d6294fcf353b0459decb4e8a3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fd911f31c33dc365aee819ec857e3ffd = $(`<div id="html_fd911f31c33dc365aee819ec857e3ffd" style="width: 100.0%; height: 100.0%;"><b>Homeless Outreach Program/Integrated Care System (HOPICS)</b><br>The agency provides advocacy, child care, HIV/AIDS services, holiday assistance, interpreter and translator services, personal goods, services for non-profit organizations, services for older adults, substance abuse services, and youth services in Los Angeles County.</div>`)[0];
+                popup_39b0a12d6294fcf353b0459decb4e8a3.setContent(html_fd911f31c33dc365aee819ec857e3ffd);
+            
+        
+
+        marker_6c3dd39bcbffe17546144763035fb40a.bindPopup(popup_39b0a12d6294fcf353b0459decb4e8a3)
+        ;
+
+        
+    
+    
+            var marker_2fbba6ce519752055bfd8ef80d02e0b4 = L.marker(
+                [33.97473866, -118.3208553],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_263c62d0fb9b2d9a9dcb44129f738822 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_01b989cc5adccee7c191aaac6db18f6e = $(`<div id="html_01b989cc5adccee7c191aaac6db18f6e" style="width: 100.0%; height: 100.0%;"><b>California Council For Veterans' Affairs, Inc.</b><br>The agency provides advocacy, education services, employment services, shelter and support services for homeless female veterans and their families.  Services are targeted, but not restricted to people who live in South Central Los Angeles.</div>`)[0];
+                popup_263c62d0fb9b2d9a9dcb44129f738822.setContent(html_01b989cc5adccee7c191aaac6db18f6e);
+            
+        
+
+        marker_2fbba6ce519752055bfd8ef80d02e0b4.bindPopup(popup_263c62d0fb9b2d9a9dcb44129f738822)
+        ;
+
+        
+    
+    
+            var marker_d7954fb0c59dd4043ed9185f4795e50b = L.marker(
+                [34.011041, -118.494661],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_1985dc7a7c3e54929d83585cf751695a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0391db9bf457f45ee0678bbe0136c802 = $(`<div id="html_0391db9bf457f45ee0678bbe0136c802" style="width: 100.0%; height: 100.0%;"><b>Daybreak Center</b><br>The agency provides advocacy, emergency food, holiday assistance, homeless support services, mental health services for mentally ill women, shelter and volunteer opportunities primarily in West Los Angeles and Santa Monica area.</div>`)[0];
+                popup_1985dc7a7c3e54929d83585cf751695a.setContent(html_0391db9bf457f45ee0678bbe0136c802);
+            
+        
+
+        marker_d7954fb0c59dd4043ed9185f4795e50b.bindPopup(popup_1985dc7a7c3e54929d83585cf751695a)
+        ;
+
+        
+    
+    
+            var marker_11cc452b55fee36dcf7b6a8882078937 = L.marker(
+                [34.138749, -118.148649],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_c68d96662c3fee4ef0a499013bf33e34 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a4dddd25f1f0725aa477508439c45ae7 = $(`<div id="html_a4dddd25f1f0725aa477508439c45ae7" style="width: 100.0%; height: 100.0%;"><b>Union Station - Adult Center</b><br>The agency provides alcohol abuse services, emergency food, holiday assistance, homeless support services, information and referral, mental health services, personal enrichment and shelter for low-income and homeless people in the Pasadena area.</div>`)[0];
+                popup_c68d96662c3fee4ef0a499013bf33e34.setContent(html_a4dddd25f1f0725aa477508439c45ae7);
+            
+        
+
+        marker_11cc452b55fee36dcf7b6a8882078937.bindPopup(popup_c68d96662c3fee4ef0a499013bf33e34)
+        ;
+
+        
+    
+    
+            var marker_248cecb48cdb2e10c54c09ac564b8665 = L.marker(
+                [34.15796, -118.133424],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_e167a651450c4971458c459a5f226b3e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_29266b9dd1e3074b3699b8d02ef7dd8b = $(`<div id="html_29266b9dd1e3074b3699b8d02ef7dd8b" style="width: 100.0%; height: 100.0%;"><b>Union Station Family Center</b><br>The agency provides alcohol abuse services, emergency food, holiday assistance, homeless support services, information and referral, mental health services, personal enrichment and shelter for low-income and homeless people in the Pasadena area.</div>`)[0];
+                popup_e167a651450c4971458c459a5f226b3e.setContent(html_29266b9dd1e3074b3699b8d02ef7dd8b);
+            
+        
+
+        marker_248cecb48cdb2e10c54c09ac564b8665.bindPopup(popup_e167a651450c4971458c459a5f226b3e)
+        ;
+
+        
+    
+    
+            var marker_ef4e485bb346c4d71cc9a5acd6345ecd = L.marker(
+                [34.12833257, -118.1467965],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_b9797901d0aa85516887854fd7db829d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4b7a80344ef1d7a90561fdaa9f5d7a64 = $(`<div id="html_4b7a80344ef1d7a90561fdaa9f5d7a64" style="width: 100.0%; height: 100.0%;"><b>Union Station's Shelter Intake - Passageways</b><br>The agency provides alcohol abuse services, emergency food, holiday assistance, homeless support services, information and referral, mental health services, personal enrichment and shelter for low-income and homeless people in the Pasadena area.</div>`)[0];
+                popup_b9797901d0aa85516887854fd7db829d.setContent(html_4b7a80344ef1d7a90561fdaa9f5d7a64);
+            
+        
+
+        marker_ef4e485bb346c4d71cc9a5acd6345ecd.bindPopup(popup_b9797901d0aa85516887854fd7db829d)
+        ;
+
+        
+    
+    
+            var marker_9c6e43e37e6c9ca4a781266bbbb78781 = L.marker(
+                [34.046632, -118.223082],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_aaf9d14023d2ca46cc289808dfcb33fe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_83ed6a02e6e90d364760d15b4ac0bbb8 = $(`<div id="html_83ed6a02e6e90d364760d15b4ac0bbb8" style="width: 100.0%; height: 100.0%;"><b>Guadalupe Homeless Project/Cem</b><br>The agency provides business services, child care, community services, homeless support services, shelter for homeless, volunteer opportunities and youth services to low-income people in the Spanish-speaking community of East Los Angeles.</div>`)[0];
+                popup_aaf9d14023d2ca46cc289808dfcb33fe.setContent(html_83ed6a02e6e90d364760d15b4ac0bbb8);
+            
+        
+
+        marker_9c6e43e37e6c9ca4a781266bbbb78781.bindPopup(popup_aaf9d14023d2ca46cc289808dfcb33fe)
+        ;
+
+        
+    
+    
+            var marker_eae6780730f67108b6e4cb78fbbe93d1 = L.marker(
+                [34.048871, -118.227871],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_db9eade27498cfe5e455f4869cb13f71 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1dba6d4e2f34f9b96c32112cbf3ebcfc = $(`<div id="html_1dba6d4e2f34f9b96c32112cbf3ebcfc" style="width: 100.0%; height: 100.0%;"><b>Proyecto Pastoral At Dolores Mission</b><br>The agency provides business services, child care, community services, homeless support services, shelter for homeless, volunteer opportunities and youth services to low-income people in the Spanish-speaking community of East Los Angeles.</div>`)[0];
+                popup_db9eade27498cfe5e455f4869cb13f71.setContent(html_1dba6d4e2f34f9b96c32112cbf3ebcfc);
+            
+        
+
+        marker_eae6780730f67108b6e4cb78fbbe93d1.bindPopup(popup_db9eade27498cfe5e455f4869cb13f71)
+        ;
+
+        
+    
+    
+            var marker_6df54408dde85190fd404826dce469c4 = L.marker(
+                [34.098264, -118.301205],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_d087e845ef1cfc2f3bb06015ab6d9d5e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_15a37180008a8b651d1425f3fb2cf2e7 = $(`<div id="html_15a37180008a8b651d1425f3fb2cf2e7" style="width: 100.0%; height: 100.0%;"><b>Hope Again</b><br>The agency provides case management and shelter for people in Los Angeles County.</div>`)[0];
+                popup_d087e845ef1cfc2f3bb06015ab6d9d5e.setContent(html_15a37180008a8b651d1425f3fb2cf2e7);
+            
+        
+
+        marker_6df54408dde85190fd404826dce469c4.bindPopup(popup_d087e845ef1cfc2f3bb06015ab6d9d5e)
+        ;
+
+        
+    
+    
+            var marker_8d5261d82c6df9c8f25df9938122c4b8 = L.marker(
+                [34.232022, -118.469299],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_6cec1f13301e81eb60912938be5c1db4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1cad015345930a75e17155445d14cd35 = $(`<div id="html_1cad015345930a75e17155445d14cd35" style="width: 100.0%; height: 100.0%;"><b>North Valley Caring Services Inc</b><br>The agency provides education services, emergency food, holiday assistance, homeless support services and recreational programs for people who live in North Hills.</div>`)[0];
+                popup_6cec1f13301e81eb60912938be5c1db4.setContent(html_1cad015345930a75e17155445d14cd35);
+            
+        
+
+        marker_8d5261d82c6df9c8f25df9938122c4b8.bindPopup(popup_6cec1f13301e81eb60912938be5c1db4)
+        ;
+
+        
+    
+    
+            var marker_e6ea9351d5688d8a1e219c74a51e5027 = L.marker(
+                [34.043114, -118.244858],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_626fbc28866cb619ea2ead7f998a1d44 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_189bd1dd81fba6e1bfe0a7ae35b2d3a0 = $(`<div id="html_189bd1dd81fba6e1bfe0a7ae35b2d3a0" style="width: 100.0%; height: 100.0%;"><b>Union Rescue Mission</b><br>The agency provides Christian-oriented social services for people of all ages in the Skid Row area of downtown Los Angeles.</div>`)[0];
+                popup_626fbc28866cb619ea2ead7f998a1d44.setContent(html_189bd1dd81fba6e1bfe0a7ae35b2d3a0);
+            
+        
+
+        marker_e6ea9351d5688d8a1e219c74a51e5027.bindPopup(popup_626fbc28866cb619ea2ead7f998a1d44)
+        ;
+
+        
+    
+    
+            var marker_44794eed89ad9c79ee42e90c112e376b = L.marker(
+                [34.143963, -118.028569],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_c8d3bf4e5e3531710856cecd21a7ace9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f9eb153aa1fb5633256db3609f3cceb0 = $(`<div id="html_f9eb153aa1fb5633256db3609f3cceb0" style="width: 100.0%; height: 100.0%;"><b>Arcadia Welfare And Thrift Shop</b><br>The agency provides emergency food, financial assistance, household goods, motel vouchers, personal goods and thrift shops for people in Arcadia, including people who are homeless.</div>`)[0];
+                popup_c8d3bf4e5e3531710856cecd21a7ace9.setContent(html_f9eb153aa1fb5633256db3609f3cceb0);
+            
+        
+
+        marker_44794eed89ad9c79ee42e90c112e376b.bindPopup(popup_c8d3bf4e5e3531710856cecd21a7ace9)
+        ;
+
+        
+    
+    
+            var marker_ed205b650e1033e570c16cad3be6627c = L.marker(
+                [34.043512, -118.243105],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_863435d806a9edad92334543eae1ca9b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f3885875456301fab74283d88e31353b = $(`<div id="html_f3885875456301fab74283d88e31353b" style="width: 100.0%; height: 100.0%;"><b>Emmanuel Baptist Rescue Mission</b><br>The agency provides emergency food, holiday assistance and shelter for homeless men in the Skid Row area of downtown Los Angeles.</div>`)[0];
+                popup_863435d806a9edad92334543eae1ca9b.setContent(html_f3885875456301fab74283d88e31353b);
+            
+        
+
+        marker_ed205b650e1033e570c16cad3be6627c.bindPopup(popup_863435d806a9edad92334543eae1ca9b)
+        ;
+
+        
+    
+    
+            var marker_5ba92bf526836018bfa6f5c0a335eef9 = L.marker(
+                [33.894523, -118.345106],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_3cd13efd2c0e7acc8230776344e2de8a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a0c08bfb22b01e35aee45a4c5155031c = $(`<div id="html_a0c08bfb22b01e35aee45a4c5155031c" style="width: 100.0%; height: 100.0%;"><b>House Of Yahweh</b><br>The agency provides emergency food, homeless support services, personal goods, shelter and thrift shops for individuals and families who are in crisis and who live in the South Bay and Southwest areas of Los Angeles County.</div>`)[0];
+                popup_3cd13efd2c0e7acc8230776344e2de8a.setContent(html_a0c08bfb22b01e35aee45a4c5155031c);
+            
+        
+
+        marker_5ba92bf526836018bfa6f5c0a335eef9.bindPopup(popup_3cd13efd2c0e7acc8230776344e2de8a)
+        ;
+
+        
+    
+    
+            var marker_0e9043cbfbbb971e8cba158b8f797633 = L.marker(
+                [34.213355, -118.388056],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_31378323aa71a02e599cc39c4c0bef0d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_50cf1f8919f105a4bc6eb0bebc13d986 = $(`<div id="html_50cf1f8919f105a4bc6eb0bebc13d986" style="width: 100.0%; height: 100.0%;"><b>L A Family Housing Corporation</b><br>The agency provides consumer assistance, employment services, homeless support services, shelter and volunteer opportunities for people in the San Fernando Valley and in East Los Angeles.</div>`)[0];
+                popup_31378323aa71a02e599cc39c4c0bef0d.setContent(html_50cf1f8919f105a4bc6eb0bebc13d986);
+            
+        
+
+        marker_0e9043cbfbbb971e8cba158b8f797633.bindPopup(popup_31378323aa71a02e599cc39c4c0bef0d)
+        ;
+
+        
+    
+    
+            var marker_840aa247069cc7fbeae5c4d710fffd25 = L.marker(
+                [33.737685, -118.286924],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_bfa37b1ed456602da436d3e6c95466f6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_65e69b949af080782a037d822cbed4b0 = $(`<div id="html_65e69b949af080782a037d822cbed4b0" style="width: 100.0%; height: 100.0%;"><b>Rainbow Services, Ltd.</b><br>The agency provides domestic violence services and shelter for individuals of all ages in Los Angeles County.</div>`)[0];
+                popup_bfa37b1ed456602da436d3e6c95466f6.setContent(html_65e69b949af080782a037d822cbed4b0);
+            
+        
+
+        marker_840aa247069cc7fbeae5c4d710fffd25.bindPopup(popup_bfa37b1ed456602da436d3e6c95466f6)
+        ;
+
+        
+    
+    
+            var marker_8cd4ea7ee1bb1069cfb9926b1db8957a = L.marker(
+                [34.703081, -118.137546],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_11ba1898e39c3144e492bd93033191b6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7aa953901764a0bfc5f8d30d692be63a = $(`<div id="html_7aa953901764a0bfc5f8d30d692be63a" style="width: 100.0%; height: 100.0%;"><b>Antelope Valley Domestic Violence Council - Homeless Solutions Access Center</b><br>The agency provides domestic violence services, homeless support services, shelter and thrift shops for people of all ages in Los Angeles County.</div>`)[0];
+                popup_11ba1898e39c3144e492bd93033191b6.setContent(html_7aa953901764a0bfc5f8d30d692be63a);
+            
+        
+
+        marker_8cd4ea7ee1bb1069cfb9926b1db8957a.bindPopup(popup_11ba1898e39c3144e492bd93033191b6)
+        ;
+
+        
+    
+    
+            var marker_eddb67f44dc76e6156ad800c8e4f97e5 = L.marker(
+                [34.044049, -118.240389],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_77bf02493f1d9c973321c2ed9d862467 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_77717c03173280dbce4b092641821776 = $(`<div id="html_77717c03173280dbce4b092641821776" style="width: 100.0%; height: 100.0%;"><b>Los Angeles Centers For Alcohol And Drug Abuse - Homeless Outreach Project</b><br>The agency provides domestic violence services, HIV/AIDS services, residential treatment for drug abuse services, and substance abuse services for adults and adolescents.</div>`)[0];
+                popup_77bf02493f1d9c973321c2ed9d862467.setContent(html_77717c03173280dbce4b092641821776);
+            
+        
+
+        marker_eddb67f44dc76e6156ad800c8e4f97e5.bindPopup(popup_77bf02493f1d9c973321c2ed9d862467)
+        ;
+
+        
+    
+    
+            var marker_f2be7ffe6142e1bdde3e7a3f8af424cc = L.marker(
+                [33.73937771, -118.2880824],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_e7e72905a5c58757a559701b111a08c8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_73cd0c6277923892f138c452c2c92a76 = $(`<div id="html_73cd0c6277923892f138c452c2c92a76" style="width: 100.0%; height: 100.0%;"><b>Joint Efforts Inc</b><br>The agency provides substance abuse services to people in the South Bay, Harbor Gateway and Long Beach areas.</div>`)[0];
+                popup_e7e72905a5c58757a559701b111a08c8.setContent(html_73cd0c6277923892f138c452c2c92a76);
+            
+        
+
+        marker_f2be7ffe6142e1bdde3e7a3f8af424cc.bindPopup(popup_e7e72905a5c58757a559701b111a08c8)
+        ;
+
+        
+    
+    
+            var marker_f910cbadc7019e990d256a85a5c635c6 = L.marker(
+                [34.70293703, -118.137311],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_68b5481680dab8b903385d9cab6a80fb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_329f340ddfebd052c04762adf7caf20b = $(`<div id="html_329f340ddfebd052c04762adf7caf20b" style="width: 100.0%; height: 100.0%;"><b>Grace Resources Inc</b><br>The agency provides education services, emergency food, holiday assistance, personal goods and a thrift shop for people who live in the Antelope Valley, including people who are homeless and undocumented.</div>`)[0];
+                popup_68b5481680dab8b903385d9cab6a80fb.setContent(html_329f340ddfebd052c04762adf7caf20b);
+            
+        
+
+        marker_f910cbadc7019e990d256a85a5c635c6.bindPopup(popup_68b5481680dab8b903385d9cab6a80fb)
+        ;
+
+        
+    
+    
+            var marker_56156b8e9a442f60853ed639458dcd8f = L.marker(
+                [34.074903, -118.09114],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_c02369791b586b051a71d4e657cf41f1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eec286c5fe9dacfa9f09d5dde5ed986d = $(`<div id="html_eec286c5fe9dacfa9f09d5dde5ed986d" style="width: 100.0%; height: 100.0%;"><b>St. Anthony's Christian Service</b><br>The agency provides emergency food and holiday assistance to people who live within the parish boundaries which are Valley Blvd.</div>`)[0];
+                popup_c02369791b586b051a71d4e657cf41f1.setContent(html_eec286c5fe9dacfa9f09d5dde5ed986d);
+            
+        
+
+        marker_56156b8e9a442f60853ed639458dcd8f.bindPopup(popup_c02369791b586b051a71d4e657cf41f1)
+        ;
+
+        
+    
+    
+            var marker_4d06ee1e648b765759f7932a28f47772 = L.marker(
+                [34.224698, -118.569239],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_d974bb3d87ac5d3c93742e0225af9939 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d50a6478c426a1b4dd2b934851068f38 = $(`<div id="html_d50a6478c426a1b4dd2b934851068f38" style="width: 100.0%; height: 100.0%;"><b>Redeemer Lutheran Outreach</b><br>The agency provides emergency food and homeless support services for low-income people who live in Canoga Park, Chatsworth, Granada Hills, Northridge, Reseda, Tarzana and Winnetka.</div>`)[0];
+                popup_d974bb3d87ac5d3c93742e0225af9939.setContent(html_d50a6478c426a1b4dd2b934851068f38);
+            
+        
+
+        marker_4d06ee1e648b765759f7932a28f47772.bindPopup(popup_d974bb3d87ac5d3c93742e0225af9939)
+        ;
+
+        
+    
+    
+            var marker_680044a1c7c4ccea1e5fdc73c3a742f9 = L.marker(
+                [34.099588, -118.334459],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_70c2fa19bb5fd8b01ae0184cf52652d0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_38db7f271ddf11e27b55d8eabbc14423 = $(`<div id="html_38db7f271ddf11e27b55d8eabbc14423" style="width: 100.0%; height: 100.0%;"><b>Social Services At Blessed Sacrament Inc</b><br>The agency provides homeless support services for people who live in Los Angeles County.</div>`)[0];
+                popup_70c2fa19bb5fd8b01ae0184cf52652d0.setContent(html_38db7f271ddf11e27b55d8eabbc14423);
+            
+        
+
+        marker_680044a1c7c4ccea1e5fdc73c3a742f9.bindPopup(popup_70c2fa19bb5fd8b01ae0184cf52652d0)
+        ;
+
+        
+    
+    
+            var marker_965c450bd5582070bd664fd032a3e5c3 = L.marker(
+                [34.18247, -118.326021],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_c6f527edd93ffeed12bf65b380c984ea = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_37942c480f32c2c6e809087e1aee36b4 = $(`<div id="html_37942c480f32c2c6e809087e1aee36b4" style="width: 100.0%; height: 100.0%;"><b>Burbank Temporary Aid Center</b><br>The agency provides emergency food, financial assistance, holiday assistance, homeless support services and shelter for people who live in Burbank.</div>`)[0];
+                popup_c6f527edd93ffeed12bf65b380c984ea.setContent(html_37942c480f32c2c6e809087e1aee36b4);
+            
+        
+
+        marker_965c450bd5582070bd664fd032a3e5c3.bindPopup(popup_c6f527edd93ffeed12bf65b380c984ea)
+        ;
+
+        
+    
+    
+            var marker_89a242effe0a01791f43c10decb02362 = L.marker(
+                [34.136624, -118.258008],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_0c330ce033cd403a49638ba3b085c6fc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dd600784b465d9881047d42ea1b66da6 = $(`<div id="html_dd600784b465d9881047d42ea1b66da6" style="width: 100.0%; height: 100.0%;"><b>Salvation Army Corps Community Center - Glendale</b><br>The agency provides emergency food, holiday assistance, nutrition programs, recreational programs and shelter for people who are primarily in the Glendale area.</div>`)[0];
+                popup_0c330ce033cd403a49638ba3b085c6fc.setContent(html_dd600784b465d9881047d42ea1b66da6);
+            
+        
+
+        marker_89a242effe0a01791f43c10decb02362.bindPopup(popup_0c330ce033cd403a49638ba3b085c6fc)
+        ;
+
+        
+    
+    
+            var marker_0d723c2c9159690637678b7f8cf411a2 = L.marker(
+                [34.014532, -118.492416],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_3d4758006f6f7822768acfb353035cab = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_812f192c186c51edc3a6219b76d55791 = $(`<div id="html_812f192c186c51edc3a6219b76d55791" style="width: 100.0%; height: 100.0%;"><b>Salvation Army Corps Community Center - Santa Monica</b><br>The agency provides emergency food, homeless support services, holiday assistance, personal goods, services for older adults, recreational programs and utility bill assistance for people of all ages who are in Santa Monica, including people who are homeless.</div>`)[0];
+                popup_3d4758006f6f7822768acfb353035cab.setContent(html_812f192c186c51edc3a6219b76d55791);
+            
+        
+
+        marker_0d723c2c9159690637678b7f8cf411a2.bindPopup(popup_3d4758006f6f7822768acfb353035cab)
+        ;
+
+        
+    
+    
+            var marker_7b3637d6f20c5d05722ebb75a08f19bb = L.marker(
+                [33.895635, -118.215217],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_ed13d958bf8e21e13e74ae0c59bbbe09 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6ee23aec45babdaed68a2271e66b1d71 = $(`<div id="html_6ee23aec45babdaed68a2271e66b1d71" style="width: 100.0%; height: 100.0%;"><b>Salvation Army Corps Community Center - Compton</b><br>The agency provides emergency food, holiday assistance, recreational programs, transportation, and utility bill assistance for families, couples and individuals who live in Compton and Lynwood zip codes 90220, 90221, 90222 and 90262.</div>`)[0];
+                popup_ed13d958bf8e21e13e74ae0c59bbbe09.setContent(html_6ee23aec45babdaed68a2271e66b1d71);
+            
+        
+
+        marker_7b3637d6f20c5d05722ebb75a08f19bb.bindPopup(popup_ed13d958bf8e21e13e74ae0c59bbbe09)
+        ;
+
+        
+    
+    
+            var marker_ac5f0f7d4d9798ca695179bde8170bd3 = L.marker(
+                [34.082334, -118.031805],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_64df60c9b5c0027ed0717fc61e649511 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_41bd4a3112c6711147c94c759300641a = $(`<div id="html_41bd4a3112c6711147c94c759300641a" style="width: 100.0%; height: 100.0%;"><b>Catholic Charities Of Los Angeles - San Juan Diego Center</b><br>The agency provides emergency food, holiday assistance and utility bill assistance for people in the San Gabriel Valley, including people who are homeless or undocumented.</div>`)[0];
+                popup_64df60c9b5c0027ed0717fc61e649511.setContent(html_41bd4a3112c6711147c94c759300641a);
+            
+        
+
+        marker_ac5f0f7d4d9798ca695179bde8170bd3.bindPopup(popup_64df60c9b5c0027ed0717fc61e649511)
+        ;
+
+        
+    
+    
+            var marker_fa80546d5c69e68cbf038ff6519f6dce = L.marker(
+                [34.033928, -118.269501],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_b2774df654cfcf00754a47893dfa52b0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3b21b847293706070d50f6ef17adad18 = $(`<div id="html_3b21b847293706070d50f6ef17adad18" style="width: 100.0%; height: 100.0%;"><b>St. Francis Center - Los Angeles</b><br>The agency provides emergency food, holiday assistance, homeless support services, and personal goods, and volunteer opportunities for low-income people in the garment district of Los Angeles, including people who are homeless.</div>`)[0];
+                popup_b2774df654cfcf00754a47893dfa52b0.setContent(html_3b21b847293706070d50f6ef17adad18);
+            
+        
+
+        marker_fa80546d5c69e68cbf038ff6519f6dce.bindPopup(popup_b2774df654cfcf00754a47893dfa52b0)
+        ;
+
+        
+    
+    
+            var marker_669ad6a47734c80e45c42339bfbc3e49 = L.marker(
+                [34.042257, -118.245505],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_c733936dd14a1e2d7b8bd2b030cf05d9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0f97e9cbd0cd2fbb3b388040169a8817 = $(`<div id="html_0f97e9cbd0cd2fbb3b388040169a8817" style="width: 100.0%; height: 100.0%;"><b>Midnight Mission</b><br>The agency provides emergency food, holiday assistance, homeless supportive services, housing services, personal goods and shelter for single men and women in the Skid Row area of downtown Los Angeles.</div>`)[0];
+                popup_c733936dd14a1e2d7b8bd2b030cf05d9.setContent(html_0f97e9cbd0cd2fbb3b388040169a8817);
+            
+        
+
+        marker_669ad6a47734c80e45c42339bfbc3e49.bindPopup(popup_c733936dd14a1e2d7b8bd2b030cf05d9)
+        ;
+
+        
+    
+    
+            var marker_85013e4984577a542965c976b5d91d00 = L.marker(
+                [34.149481, -118.129818],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_df4855828688be6c300da9c44e61ed4f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9851ce92c046bb9cd40fb76b5bc3229c = $(`<div id="html_9851ce92c046bb9cd40fb76b5bc3229c" style="width: 100.0%; height: 100.0%;"><b>Salvation Army Corps Community Center - Pasadena</b><br>The agency provides emergency food, holiday assistance, personal goods, recreational programs for people in Altadena, Arcadia, Pasadena, Sierra Madre and South Pasadena.</div>`)[0];
+                popup_df4855828688be6c300da9c44e61ed4f.setContent(html_9851ce92c046bb9cd40fb76b5bc3229c);
+            
+        
+
+        marker_85013e4984577a542965c976b5d91d00.bindPopup(popup_df4855828688be6c300da9c44e61ed4f)
+        ;
+
+        
+    
+    
+            var marker_246c6939e5437ca41bc882017886d0c9 = L.marker(
+                [33.969, -118.041901],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_bdf6b5033ff545eb6bc6432fc2f6675b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_374362f9481a8f6bb8944bf3a0d798b0 = $(`<div id="html_374362f9481a8f6bb8944bf3a0d798b0" style="width: 100.0%; height: 100.0%;"><b>Salvation Army Corps Community Center - Whittier</b><br>The agency provides emergency food, holiday assistance, personal goods, recreational programs and utility bill assistance for people who live in Whittier and the surrounding cities of Baldwin Park, City of Industy, Hacienda Heights, La Habra Heights, La Puente, Rowland Heights and South El Monte.</div>`)[0];
+                popup_bdf6b5033ff545eb6bc6432fc2f6675b.setContent(html_374362f9481a8f6bb8944bf3a0d798b0);
+            
+        
+
+        marker_246c6939e5437ca41bc882017886d0c9.bindPopup(popup_bdf6b5033ff545eb6bc6432fc2f6675b)
+        ;
+
+        
+    
+    
+            var marker_66ad1c0332387bf91833b63dae0c1637 = L.marker(
+                [34.037121, -118.185623],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_9094060f482422b9f5bcdf96d5547edf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a9071721952667392b5ed123c35a47dd = $(`<div id="html_a9071721952667392b5ed123c35a47dd" style="width: 100.0%; height: 100.0%;"><b>Salvation Army Corps Community Center - East Los Angeles Temple</b><br>The agency provides emergency food and transportation for people who live in the East Los Angeles area.</div>`)[0];
+                popup_9094060f482422b9f5bcdf96d5547edf.setContent(html_a9071721952667392b5ed123c35a47dd);
+            
+        
+
+        marker_66ad1c0332387bf91833b63dae0c1637.bindPopup(popup_9094060f482422b9f5bcdf96d5547edf)
+        ;
+
+        
+    
+    
+            var marker_53ebdf330770ec49feb06c117bd97fda = L.marker(
+                [33.776032, -118.260987],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_868b9780921b505494eadb61632c2143 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6232d41905c31fd61c917a3aa1e2c803 = $(`<div id="html_6232d41905c31fd61c917a3aa1e2c803" style="width: 100.0%; height: 100.0%;"><b>Southern California Floating Christian Endeavor Association Inc - Beacon Light Mission</b><br>The agency provides emergency food, homeless support services, holiday assistance and shelter for men who are in Los Angeles County.</div>`)[0];
+                popup_868b9780921b505494eadb61632c2143.setContent(html_6232d41905c31fd61c917a3aa1e2c803);
+            
+        
+
+        marker_53ebdf330770ec49feb06c117bd97fda.bindPopup(popup_868b9780921b505494eadb61632c2143)
+        ;
+
+        
+    
+    
+            var marker_41d00ad0500ccbe3b6b3f6c39f56d2ec = L.marker(
+                [34.57547698, -118.1114601],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_44eddb5eb21d358d6f79ae290491f05d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0b16c63dc3b1f3dc03d77bd99272d0d4 = $(`<div id="html_0b16c63dc3b1f3dc03d77bd99272d0d4" style="width: 100.0%; height: 100.0%;"><b>South Antelope Valley Emergency Services</b><br>The agency provides emergency food, personal goods, and shelter for South Antelope Valley residents.</div>`)[0];
+                popup_44eddb5eb21d358d6f79ae290491f05d.setContent(html_0b16c63dc3b1f3dc03d77bd99272d0d4);
+            
+        
+
+        marker_41d00ad0500ccbe3b6b3f6c39f56d2ec.bindPopup(popup_44eddb5eb21d358d6f79ae290491f05d)
+        ;
+
+        
+    
+    
+            var marker_b1b0662660ca5069bb070872c97a3d8f = L.marker(
+                [34.077481, -118.289011],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_6804b9bafe6c1cdbee7b095533ae8831 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ece5e6abd2ca70a22d51f337057d843f = $(`<div id="html_ece5e6abd2ca70a22d51f337057d843f" style="width: 100.0%; height: 100.0%;"><b>People Assisting The Homeless</b><br>The agency provides employment services, homeless support services and transitional shelter for homeless adults.</div>`)[0];
+                popup_6804b9bafe6c1cdbee7b095533ae8831.setContent(html_ece5e6abd2ca70a22d51f337057d843f);
+            
+        
+
+        marker_b1b0662660ca5069bb070872c97a3d8f.bindPopup(popup_6804b9bafe6c1cdbee7b095533ae8831)
+        ;
+
+        
+    
+    
+            var marker_434bbe5724c82c12cd2afc4a8e5a196c = L.marker(
+                [34.096065, -118.311932],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_54cf1fa8326a38474ecbbaa84ea5cb09 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6a57b618296764a61d434ce02c7b3896 = $(`<div id="html_6a57b618296764a61d434ce02c7b3896" style="width: 100.0%; height: 100.0%;"><b>People Assisting The Homeless - Hollywood Center</b><br>The agency provides employment services, homeless support services and transitional shelter for homeless adults.</div>`)[0];
+                popup_54cf1fa8326a38474ecbbaa84ea5cb09.setContent(html_6a57b618296764a61d434ce02c7b3896);
+            
+        
+
+        marker_434bbe5724c82c12cd2afc4a8e5a196c.bindPopup(popup_54cf1fa8326a38474ecbbaa84ea5cb09)
+        ;
+
+        
+    
+    
+            var marker_a8f32b8bc5cb6812dd04de0edf928bd2 = L.marker(
+                [34.03675557, -118.4369768],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_111b6b87aeff4076cddcbe941fa9c454 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_38c042bedcba34a61f19271bd064dd31 = $(`<div id="html_38c042bedcba34a61f19271bd064dd31" style="width: 100.0%; height: 100.0%;"><b>People Assisting the Homeless (PATH) -  West Los Angeles</b><br>The agency provides employment services, homeless support services and transitional shelter for homeless adults.  Services are provided from four locations.</div>`)[0];
+                popup_111b6b87aeff4076cddcbe941fa9c454.setContent(html_38c042bedcba34a61f19271bd064dd31);
+            
+        
+
+        marker_a8f32b8bc5cb6812dd04de0edf928bd2.bindPopup(popup_111b6b87aeff4076cddcbe941fa9c454)
+        ;
+
+        
+    
+    
+            var marker_4d791763dd89c6c8c7e74ae1e4aa1140 = L.marker(
+                [34.0614496, -117.7207389],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_d98abd28b606270545275db521d14d91 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_374b4928ebbf5b1a3d659879e33abfaa = $(`<div id="html_374b4928ebbf5b1a3d659879e33abfaa" style="width: 100.0%; height: 100.0%;"><b>Catholic Charities - Pomona Community Services</b><br>The agency provides shelter and utility bill assistance for low income people who live in the Pomona Valley, including people who receive public assistance and people who are undocumented.</div>`)[0];
+                popup_d98abd28b606270545275db521d14d91.setContent(html_374b4928ebbf5b1a3d659879e33abfaa);
+            
+        
+
+        marker_4d791763dd89c6c8c7e74ae1e4aa1140.bindPopup(popup_d98abd28b606270545275db521d14d91)
+        ;
+
+        
+    
+    
+            var marker_70dcd681387aff40c1ae34474b9b43dd = L.marker(
+                [34.0955551, -117.729749],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_8e1e6242b49bdbcd108daaf8ccdf6e36 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d0209b4fbf1b74b8a64b940297200f11 = $(`<div id="html_d0209b4fbf1b74b8a64b940297200f11" style="width: 100.0%; height: 100.0%;"><b>St. Ambrose Episcopal Church</b><br>The agency provides holiday assistance for people who live in the Pomona Valley and Inland Empire.</div>`)[0];
+                popup_8e1e6242b49bdbcd108daaf8ccdf6e36.setContent(html_d0209b4fbf1b74b8a64b940297200f11);
+            
+        
+
+        marker_70dcd681387aff40c1ae34474b9b43dd.bindPopup(popup_8e1e6242b49bdbcd108daaf8ccdf6e36)
+        ;
+
+        
+    
+    
+            var marker_7e7b8f07d7ff9b9bc686f33a1e6444a7 = L.marker(
+                [33.772741, -118.187289],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_18ce28c0c12bdac71840918c04eb92ac = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3f7302144f0edaa277bc86da330d00e3 = $(`<div id="html_3f7302144f0edaa277bc86da330d00e3" style="width: 100.0%; height: 100.0%;"><b>Mental Health America Of Los Angeles - Long Beach</b><br>The agency provides homeless support services and mental health services for people in the Long Beach area.</div>`)[0];
+                popup_18ce28c0c12bdac71840918c04eb92ac.setContent(html_3f7302144f0edaa277bc86da330d00e3);
+            
+        
+
+        marker_7e7b8f07d7ff9b9bc686f33a1e6444a7.bindPopup(popup_18ce28c0c12bdac71840918c04eb92ac)
+        ;
+
+        
+    
+    
+            var marker_4132701f7bfd1eb0e624d0b7a40e4f5e = L.marker(
+                [34.101492, -118.317091],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_2b689ec558a648e0ecd0148447ecaa3d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_279296ff5f544b83dbc955af2034fc91 = $(`<div id="html_279296ff5f544b83dbc955af2034fc91" style="width: 100.0%; height: 100.0%;"><b>My Friend's Place</b><br>The agency provides homeless support services and runaway services for youth and young adults who are in the Hollywood area.</div>`)[0];
+                popup_2b689ec558a648e0ecd0148447ecaa3d.setContent(html_279296ff5f544b83dbc955af2034fc91);
+            
+        
+
+        marker_4132701f7bfd1eb0e624d0b7a40e4f5e.bindPopup(popup_2b689ec558a648e0ecd0148447ecaa3d)
+        ;
+
+        
+    
+    
+            var marker_2c4f90e7c03f5587c7d7cf16561e9017 = L.marker(
+                [34.0422775, -118.2451618],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_1b80affe9fb8e587131cc6514439a5dc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e88b6cefb5d4c9bcaa913a19df3e23a2 = $(`<div id="html_e88b6cefb5d4c9bcaa913a19df3e23a2" style="width: 100.0%; height: 100.0%;"><b>Weingart Center Association</b><br>The agency provides homeless support services and shelter for adults primarily in the Downtown Skid Row area of Los Angeles.</div>`)[0];
+                popup_1b80affe9fb8e587131cc6514439a5dc.setContent(html_e88b6cefb5d4c9bcaa913a19df3e23a2);
+            
+        
+
+        marker_2c4f90e7c03f5587c7d7cf16561e9017.bindPopup(popup_1b80affe9fb8e587131cc6514439a5dc)
+        ;
+
+        
+    
+    
+            var marker_c576547fd4ca63a86db3c40f33a593fd = L.marker(
+                [34.0697096, -117.9451866],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_ab30753c0a3d0c4baf20a3845b74f00f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_489ef4da84ceabe11b9c4410e6df8f14 = $(`<div id="html_489ef4da84ceabe11b9c4410e6df8f14" style="width: 100.0%; height: 100.0%;"><b>Volunteers Of America - Greater Los Angeles - West Covina Outreach And Access Center</b><br>The agency provides homeless support services for people of all ages in Los Angeles County.</div>`)[0];
+                popup_ab30753c0a3d0c4baf20a3845b74f00f.setContent(html_489ef4da84ceabe11b9c4410e6df8f14);
+            
+        
+
+        marker_c576547fd4ca63a86db3c40f33a593fd.bindPopup(popup_ab30753c0a3d0c4baf20a3845b74f00f)
+        ;
+
+        
+    
+    
+            var marker_9e997bd0b992521ef874f49445306a80 = L.marker(
+                [34.046006, -118.246126],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_e559d8d941d7098460911305374ecd56 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c026a6d08a92381b516a4a66ea0c9323 = $(`<div id="html_c026a6d08a92381b516a4a66ea0c9323" style="width: 100.0%; height: 100.0%;"><b>Society Of St. Vincent De Paul - Social Services Department</b><br>The agency provides homeless support services and shelter for people who are primarily in the Skid Row area of downtown Los Angeles.</div>`)[0];
+                popup_e559d8d941d7098460911305374ecd56.setContent(html_c026a6d08a92381b516a4a66ea0c9323);
+            
+        
+
+        marker_9e997bd0b992521ef874f49445306a80.bindPopup(popup_e559d8d941d7098460911305374ecd56)
+        ;
+
+        
+    
+    
+            var marker_525ae4ccd694ea83b1fef4bc7b68f6bb = L.marker(
+                [34.0621, -117.766965],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_388defe394696211bc367e033e862e3c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b67f5014e4006e9237e71f2cfb0c3749 = $(`<div id="html_b67f5014e4006e9237e71f2cfb0c3749" style="width: 100.0%; height: 100.0%;"><b>Pomona Neighborhood Center</b><br>The agency provides homeless support services for people who live in the Pomona Valley.</div>`)[0];
+                popup_388defe394696211bc367e033e862e3c.setContent(html_b67f5014e4006e9237e71f2cfb0c3749);
+            
+        
+
+        marker_525ae4ccd694ea83b1fef4bc7b68f6bb.bindPopup(popup_388defe394696211bc367e033e862e3c)
+        ;
+
+        
+    
+    
+            var marker_c7dd53a2847887a3711e58b0e94c1412 = L.marker(
+                [34.099059, -118.322159],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_a5b6e816cb40ecea751fc125ec5bf8e2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4a015bac8aa50f38ac318d9c635a8c47 = $(`<div id="html_4a015bac8aa50f38ac318d9c635a8c47" style="width: 100.0%; height: 100.0%;"><b>Los Angeles Youth Network - Gower Youth Shelter</b><br>The agency provides runaway services and a shelter for youth in Los Angeles County.</div>`)[0];
+                popup_a5b6e816cb40ecea751fc125ec5bf8e2.setContent(html_4a015bac8aa50f38ac318d9c635a8c47);
+            
+        
+
+        marker_c7dd53a2847887a3711e58b0e94c1412.bindPopup(popup_a5b6e816cb40ecea751fc125ec5bf8e2)
+        ;
+
+        
+    
+    
+            var marker_755c011ad6784e58c32ad27fd9ffe53f = L.marker(
+                [34.103333, -118.314582],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_fbd50e5617868efdffa78a28f084c5fd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_055e23a3f04250038e149bc10ee22ea6 = $(`<div id="html_055e23a3f04250038e149bc10ee22ea6" style="width: 100.0%; height: 100.0%;"><b>Los Angeles Youth Network Taft House</b><br>The agency provides shelter for youth in crisis who are in Los Angeles County.</div>`)[0];
+                popup_fbd50e5617868efdffa78a28f084c5fd.setContent(html_055e23a3f04250038e149bc10ee22ea6);
+            
+        
+
+        marker_755c011ad6784e58c32ad27fd9ffe53f.bindPopup(popup_fbd50e5617868efdffa78a28f084c5fd)
+        ;
+
+        
+    
+    
+            var marker_55563cbaa17cd9a42e6d7f07a2cb8081 = L.marker(
+                [34.095419, -118.309407],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_025b1f923279269fe554e3b892b28b42 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b05ed8b30fc9b6460421938e179eae04 = $(`<div id="html_b05ed8b30fc9b6460421938e179eae04" style="width: 100.0%; height: 100.0%;"><b>Covenant House California</b><br>The agency provides runaway services and shelter for homeless and at-risk youth who are in Los Angeles County.</div>`)[0];
+                popup_025b1f923279269fe554e3b892b28b42.setContent(html_b05ed8b30fc9b6460421938e179eae04);
+            
+        
+
+        marker_55563cbaa17cd9a42e6d7f07a2cb8081.bindPopup(popup_025b1f923279269fe554e3b892b28b42)
+        ;
+
+        
+    
+    
+            var marker_bbf5f66b6f6a4e6bc6bed6ff71d0b287 = L.marker(
+                [33.958908, -118.292044],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_516257ec487163f26380f364832b626c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_847b7557033563d8f99dc6b2e2a54a85 = $(`<div id="html_847b7557033563d8f99dc6b2e2a54a85" style="width: 100.0%; height: 100.0%;"><b>My Club Drop In Center</b><br>The agency provides runaway services and shelter for runaway, homeless and at-risk youth in Los Angeles County.</div>`)[0];
+                popup_516257ec487163f26380f364832b626c.setContent(html_847b7557033563d8f99dc6b2e2a54a85);
+            
+        
+
+        marker_bbf5f66b6f6a4e6bc6bed6ff71d0b287.bindPopup(popup_516257ec487163f26380f364832b626c)
+        ;
+
+        
+    
+    
+            var marker_fc207c9b1b51839e46a67a76146b31c0 = L.marker(
+                [34.060944, -118.272649],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_02b1e60b9a31c9e7ddad974647fc994b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_10a79b3bf8c01f033afca0f8c9291b8b = $(`<div id="html_10a79b3bf8c01f033afca0f8c9291b8b" style="width: 100.0%; height: 100.0%;"><b>Catholic Charities Of Los Angeles - Our Lady Of The Angels Region - Metro Area - Angel's Flight Runaway And Homeless Youth Services</b><br>The agency provides runaway services and shelter for runaway, homeless and at-risk youth in Los Angeles County.</div>`)[0];
+                popup_02b1e60b9a31c9e7ddad974647fc994b.setContent(html_10a79b3bf8c01f033afca0f8c9291b8b);
+            
+        
+
+        marker_fc207c9b1b51839e46a67a76146b31c0.bindPopup(popup_02b1e60b9a31c9e7ddad974647fc994b)
+        ;
+
+        
+    
+    
+            var marker_493177e9622ea99a4539aabddada82e9 = L.marker(
+                [33.778375, -118.1933],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_3df6d65b933d7ae651768f82365de6a3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_83cb2038e98824edce5204dcd14c2ea1 = $(`<div id="html_83cb2038e98824edce5204dcd14c2ea1" style="width: 100.0%; height: 100.0%;"><b>Womenshelter Of Long Beach</b><br>The agency provides shelter and domestic violence services for victims of domestic violence and their children as well as volunteer opportunities for individuals living in Los Angeles County.</div>`)[0];
+                popup_3df6d65b933d7ae651768f82365de6a3.setContent(html_83cb2038e98824edce5204dcd14c2ea1);
+            
+        
+
+        marker_493177e9622ea99a4539aabddada82e9.bindPopup(popup_3df6d65b933d7ae651768f82365de6a3)
+        ;
+
+        
+    
+    
+            var marker_0a3c46da8098aa0a378aa514a140ef49 = L.marker(
+                [34.091357, -118.300613],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_4f43c6bfeb44d4b5207807bcb9960dd5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_056bae69c64903de0675156336b20e2d = $(`<div id="html_056bae69c64903de0675156336b20e2d" style="width: 100.0%; height: 100.0%;"><b>House Of Hope</b><br>The agency provides shelter and emergency food for men and women, including ex-offenders and General Relief recipients.</div>`)[0];
+                popup_4f43c6bfeb44d4b5207807bcb9960dd5.setContent(html_056bae69c64903de0675156336b20e2d);
+            
+        
+
+        marker_0a3c46da8098aa0a378aa514a140ef49.bindPopup(popup_4f43c6bfeb44d4b5207807bcb9960dd5)
+        ;
+
+        
+    
+    
+            var marker_294d9c3be866b87b892633e7c72255ff = L.marker(
+                [33.985699, -117.878273],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_37b733b915213ce596adb9ccba52a170 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b4559df02c3333e2801c6357de6ebaeb = $(`<div id="html_b4559df02c3333e2801c6357de6ebaeb" style="width: 100.0%; height: 100.0%;"><b>Gospel Missions Of America</b><br>The agency provides shelter for adults 18 years and older in Los Angeles County.</div>`)[0];
+                popup_37b733b915213ce596adb9ccba52a170.setContent(html_b4559df02c3333e2801c6357de6ebaeb);
+            
+        
+
+        marker_294d9c3be866b87b892633e7c72255ff.bindPopup(popup_37b733b915213ce596adb9ccba52a170)
+        ;
+
+        
+    
+    
+            var marker_8f42fc4afb25b31069d4acd7b91c661b = L.marker(
+                [34.129686, -117.904098],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_0394355edee6f38794558b9ea43ee8d4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d658f7a133f9703803cea1b898d66332 = $(`<div id="html_d658f7a133f9703803cea1b898d66332" style="width: 100.0%; height: 100.0%;"><b>Peregrinos De Emaus Inc</b><br>The agency provides shelter for men in Los Angeles County, including men who are undocumented.</div>`)[0];
+                popup_0394355edee6f38794558b9ea43ee8d4.setContent(html_d658f7a133f9703803cea1b898d66332);
+            
+        
+
+        marker_8f42fc4afb25b31069d4acd7b91c661b.bindPopup(popup_0394355edee6f38794558b9ea43ee8d4)
+        ;
+
+        
+    
+    
+            var marker_0cd4c62078f4e058bba90aef482d93f1 = L.marker(
+                [34.694013, -118.134521],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_34f895c0c0b56a835c6262d738dbe412 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bee582bbe08c6362a224adfaa10af568 = $(`<div id="html_bee582bbe08c6362a224adfaa10af568" style="width: 100.0%; height: 100.0%;"><b>Lancaster Community Shelter For The Homeless</b><br>The agency provides shelter for singles, couples and families who are homeless in the Lancaster/Palmdale area.</div>`)[0];
+                popup_34f895c0c0b56a835c6262d738dbe412.setContent(html_bee582bbe08c6362a224adfaa10af568);
+            
+        
+
+        marker_0cd4c62078f4e058bba90aef482d93f1.bindPopup(popup_34f895c0c0b56a835c6262d738dbe412)
+        ;
+
+        
+    
+    
+            var marker_01688086a38b4a6c4b04ca182d31ba0d = L.marker(
+                [34.703081, -118.137546],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_cbfb58bef70de775aa0d2a3b358dfea5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b8e999edec939cc07d90390e449c5573 = $(`<div id="html_b8e999edec939cc07d90390e449c5573" style="width: 100.0%; height: 100.0%;"><b>Year Round Pick-Up Site - Antelope Valley Access Center</b><br>The agency provides shelter, motel vouchers and transportation to homeless individuals and families.</div>`)[0];
+                popup_cbfb58bef70de775aa0d2a3b358dfea5.setContent(html_b8e999edec939cc07d90390e449c5573);
+            
+        
+
+        marker_01688086a38b4a6c4b04ca182d31ba0d.bindPopup(popup_cbfb58bef70de775aa0d2a3b358dfea5)
+        ;
+
+        
+    
+    
+            var marker_6f8abc5acf1f5fdd859afb04b376bbb4 = L.marker(
+                [34.671483, -118.13098],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_8e8cecae97ac2d671474473de06ac6f4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_47ad5aca1b4923f054e520f1d4659da7 = $(`<div id="html_47ad5aca1b4923f054e520f1d4659da7" style="width: 100.0%; height: 100.0%;"><b>Year Round Pick-Up Site - Mental Health Association</b><br>The agency provides shelter, motel vouchers and transportation to homeless individuals and families.</div>`)[0];
+                popup_8e8cecae97ac2d671474473de06ac6f4.setContent(html_47ad5aca1b4923f054e520f1d4659da7);
+            
+        
+
+        marker_6f8abc5acf1f5fdd859afb04b376bbb4.bindPopup(popup_8e8cecae97ac2d671474473de06ac6f4)
+        ;
+
+        
+    
+    
+            var marker_3c6b45b1d06fe6411376f277ab27488d = L.marker(
+                [34.670172, -118.12294],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_820ca1dae569c6bb28d1e89bbd21a3dd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6381a0db73ed795107d8908b9a31511b = $(`<div id="html_6381a0db73ed795107d8908b9a31511b" style="width: 100.0%; height: 100.0%;"><b>Year Round Pick-Up Site - Department Of Mental Health</b><br>The agency provides shelter, motel vouchers and transportation to homeless individuals and families.</div>`)[0];
+                popup_820ca1dae569c6bb28d1e89bbd21a3dd.setContent(html_6381a0db73ed795107d8908b9a31511b);
+            
+        
+
+        marker_3c6b45b1d06fe6411376f277ab27488d.bindPopup(popup_820ca1dae569c6bb28d1e89bbd21a3dd)
+        ;
+
+        
+    
+    
+            var marker_876521cdeb293645b245a163163c474a = L.marker(
+                [33.78410485, -118.1929207],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_419fb178501198b9f80e6b3a2e7565f8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7a82465149acaf7654c7aa3308bd5658 = $(`<div id="html_7a82465149acaf7654c7aa3308bd5658" style="width: 100.0%; height: 100.0%;"><b>Year Round Pick-Up Site - Catholic Charities Community Center</b><br>The agency provides shelter, motel vouchers and transportation to homeless individuals and families.</div>`)[0];
+                popup_419fb178501198b9f80e6b3a2e7565f8.setContent(html_7a82465149acaf7654c7aa3308bd5658);
+            
+        
+
+        marker_876521cdeb293645b245a163163c474a.bindPopup(popup_419fb178501198b9f80e6b3a2e7565f8)
+        ;
+
+        
+    
+    
+            var marker_a723ab62884fcdc08d2c2c845188b7d8 = L.marker(
+                [33.782005, -118.209021],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_f3ff4e4c244ad1755323b9ea56b7693f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c74e5e95967e6724cfde9e630887cafe = $(`<div id="html_c74e5e95967e6724cfde9e630887cafe" style="width: 100.0%; height: 100.0%;"><b>Year Round Pick-Up Site - Long Beach Multi-Service Center</b><br>The agency provides shelter, motel vouchers and transportation to homeless individuals and families.</div>`)[0];
+                popup_f3ff4e4c244ad1755323b9ea56b7693f.setContent(html_c74e5e95967e6724cfde9e630887cafe);
+            
+        
+
+        marker_a723ab62884fcdc08d2c2c845188b7d8.bindPopup(popup_f3ff4e4c244ad1755323b9ea56b7693f)
+        ;
+
+        
+    
+    
+            var marker_967e11635b997d5cc92e93814f1b0d3c = L.marker(
+                [34.046635, -118.264175],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_1ef2e12b651ed94b173e4f13f0d87274 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ddeca55ac4653d6f25965021f80d7ff0 = $(`<div id="html_ddeca55ac4653d6f25965021f80d7ff0" style="width: 100.0%; height: 100.0%;"><b>Year Round Shelter - Salvation Army</b><br>The agency provides shelter, motel vouchers and transportation to homeless individuals and families.</div>`)[0];
+                popup_1ef2e12b651ed94b173e4f13f0d87274.setContent(html_ddeca55ac4653d6f25965021f80d7ff0);
+            
+        
+
+        marker_967e11635b997d5cc92e93814f1b0d3c.bindPopup(popup_1ef2e12b651ed94b173e4f13f0d87274)
+        ;
+
+        
+    
+    
+            var marker_eeaea04543b17decda3288f197b190a7 = L.marker(
+                [34.044656, -118.244768],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_63baaaf0e6a7109e11aa4d3cb8fec574 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2a3af96b73a97338a4e8bf5866c76fe5 = $(`<div id="html_2a3af96b73a97338a4e8bf5866c76fe5" style="width: 100.0%; height: 100.0%;"><b>Year Round Shelter - Sro Housing</b><br>The agency provides shelter, motel vouchers and transportation to homeless individuals and families.</div>`)[0];
+                popup_63baaaf0e6a7109e11aa4d3cb8fec574.setContent(html_2a3af96b73a97338a4e8bf5866c76fe5);
+            
+        
+
+        marker_eeaea04543b17decda3288f197b190a7.bindPopup(popup_63baaaf0e6a7109e11aa4d3cb8fec574)
+        ;
+
+        
+    
+    
+            var marker_add162b431610f14197c1ef205372bb8 = L.marker(
+                [34.213355, -118.388056],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_c20d8d54cea70e1b3901b163371d2187 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6f18f11b787886f3aa4f51894e92d51d = $(`<div id="html_6f18f11b787886f3aa4f51894e92d51d" style="width: 100.0%; height: 100.0%;"><b>Year Round Shelter - Los Angeles Family Housing</b><br>The agency provides shelter, motel vouchers and transportation to homeless individuals and families.</div>`)[0];
+                popup_c20d8d54cea70e1b3901b163371d2187.setContent(html_6f18f11b787886f3aa4f51894e92d51d);
+            
+        
+
+        marker_add162b431610f14197c1ef205372bb8.bindPopup(popup_c20d8d54cea70e1b3901b163371d2187)
+        ;
+
+        
+    
+    
+            var marker_8e5c2ea39c539cccd8ce79292d8e2db2 = L.marker(
+                [33.9337349, -118.2737091],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_5ddb54cbaa044459aa5ba8ea842c7e8e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_93a1c76a7640a62363514bc560a5bf04 = $(`<div id="html_93a1c76a7640a62363514bc560a5bf04" style="width: 100.0%; height: 100.0%;"><b>Year Round Shelter - Mjb Recovery, Inc.</b><br>The agency provides shelter, motel vouchers and transportation to homeless individuals and families.</div>`)[0];
+                popup_5ddb54cbaa044459aa5ba8ea842c7e8e.setContent(html_93a1c76a7640a62363514bc560a5bf04);
+            
+        
+
+        marker_8e5c2ea39c539cccd8ce79292d8e2db2.bindPopup(popup_5ddb54cbaa044459aa5ba8ea842c7e8e)
+        ;
+
+        
+    
+    
+            var marker_569c2bae92244edb86e0476759112b10 = L.marker(
+                [34.01279, -118.27611],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_99e7cf9e5a8ffe630ccd3fb7d4c9ac9c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c20ce6ff83bd7b6461aa9faef7357bcc = $(`<div id="html_c20ce6ff83bd7b6461aa9faef7357bcc" style="width: 100.0%; height: 100.0%;"><b>Year Round Shelter - Volunteers Of America - Pathway To Home</b><br>The agency provides shelter, motel vouchers and transportation to homeless individuals and families.</div>`)[0];
+                popup_99e7cf9e5a8ffe630ccd3fb7d4c9ac9c.setContent(html_c20ce6ff83bd7b6461aa9faef7357bcc);
+            
+        
+
+        marker_569c2bae92244edb86e0476759112b10.bindPopup(popup_99e7cf9e5a8ffe630ccd3fb7d4c9ac9c)
+        ;
+
+        
+    
+    
+            var marker_52c80418e6e7911a8a82dfaa04c1d4ec = L.marker(
+                [34.052606, -118.222811],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_9ac4d9afe6db9ff5158b9d3f7a7569d1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b0841228917a21547eb43622bef63cbc = $(`<div id="html_b0841228917a21547eb43622bef63cbc" style="width: 100.0%; height: 100.0%;"><b>Year Round Shelter - Jovenes, Inc.</b><br>The agency provides shelter, motel vouchers and transportation to homeless individuals and families.</div>`)[0];
+                popup_9ac4d9afe6db9ff5158b9d3f7a7569d1.setContent(html_b0841228917a21547eb43622bef63cbc);
+            
+        
+
+        marker_52c80418e6e7911a8a82dfaa04c1d4ec.bindPopup(popup_9ac4d9afe6db9ff5158b9d3f7a7569d1)
+        ;
+
+        
+    
+    
+            var marker_3eb76475269ab52c2fe9dc27e6283397 = L.marker(
+                [34.095419, -118.309407],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_eb783d2d10d45dc55a286a30e10b2e31 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0b46f4bd8a6284413b019109bfaf54c9 = $(`<div id="html_0b46f4bd8a6284413b019109bfaf54c9" style="width: 100.0%; height: 100.0%;"><b>Year Round Shelter - Covenant House</b><br>The agency provides shelter, motel vouchers and transportation to homeless individuals and families.</div>`)[0];
+                popup_eb783d2d10d45dc55a286a30e10b2e31.setContent(html_0b46f4bd8a6284413b019109bfaf54c9);
+            
+        
+
+        marker_3eb76475269ab52c2fe9dc27e6283397.bindPopup(popup_eb783d2d10d45dc55a286a30e10b2e31)
+        ;
+
+        
+    
+    
+            var marker_f143d36dedcd68dd0f801279f4cacdfb = L.marker(
+                [34.694013, -118.134521],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_109bdf579bb3b2b3f9763a6a63bdc96e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b283504fb8992d3dc9cb5742e5632531 = $(`<div id="html_b283504fb8992d3dc9cb5742e5632531" style="width: 100.0%; height: 100.0%;"><b>Year Round Shelter - Lancaster Community Shelter</b><br>The agency provides shelter, motel vouchers and transportation to homeless individuals and families.</div>`)[0];
+                popup_109bdf579bb3b2b3f9763a6a63bdc96e.setContent(html_b283504fb8992d3dc9cb5742e5632531);
+            
+        
+
+        marker_f143d36dedcd68dd0f801279f4cacdfb.bindPopup(popup_109bdf579bb3b2b3f9763a6a63bdc96e)
+        ;
+
+        
+    
+    
+            var marker_ba64b2eeeefe72b6a47e966cf1be9f0f = L.marker(
+                [34.046632, -118.223082],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_7e08c88b0112d8ea76f6920975f0cbc6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ebe3e5a0c31693f1be6863a10e74cb82 = $(`<div id="html_ebe3e5a0c31693f1be6863a10e74cb82" style="width: 100.0%; height: 100.0%;"><b>Year Round Shelter - Proyecto Pastoral At Dolores Mission</b><br>The agency provides shelter, motel vouchers and transportation to homeless individuals and families.</div>`)[0];
+                popup_7e08c88b0112d8ea76f6920975f0cbc6.setContent(html_ebe3e5a0c31693f1be6863a10e74cb82);
+            
+        
+
+        marker_ba64b2eeeefe72b6a47e966cf1be9f0f.bindPopup(popup_7e08c88b0112d8ea76f6920975f0cbc6)
+        ;
+
+        
+    
+    
+            var marker_f033e829d97668322f26faaa992fbc84 = L.marker(
+                [34.043114, -118.244858],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_9b4ac6d9549c0391fb121b3a5011dc8d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c91312f173a2181918daa8c11b8f7ce0 = $(`<div id="html_c91312f173a2181918daa8c11b8f7ce0" style="width: 100.0%; height: 100.0%;"><b>Year Round Shelter - Eimago (Union Rescue Mission)</b><br>The agency provides shelter, motel vouchers and transportation to homeless individuals and families.</div>`)[0];
+                popup_9b4ac6d9549c0391fb121b3a5011dc8d.setContent(html_c91312f173a2181918daa8c11b8f7ce0);
+            
+        
+
+        marker_f033e829d97668322f26faaa992fbc84.bindPopup(popup_9b4ac6d9549c0391fb121b3a5011dc8d)
+        ;
+
+        
+    
+    
+            var marker_f83f889bfa128eeee62cea851fd034b9 = L.marker(
+                [34.019913, -118.329164],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_f80f52dcdb909aff17078aff53af2caf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_833f071e6287da6381f340fef2e60041 = $(`<div id="html_833f071e6287da6381f340fef2e60041" style="width: 100.0%; height: 100.0%;"><b>Friends Helping Friends Sober And Transitional Living Inc</b><br>The agency provides transitional housing for men and women over the age of 18.</div>`)[0];
+                popup_f80f52dcdb909aff17078aff53af2caf.setContent(html_833f071e6287da6381f340fef2e60041);
+            
+        
+
+        marker_f83f889bfa128eeee62cea851fd034b9.bindPopup(popup_f80f52dcdb909aff17078aff53af2caf)
+        ;
+
+        
+    
+    
+            var marker_5d77d3d482ae69bfe48ce1d851bb4807 = L.marker(
+                [34.0437, -118.316431],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_58a4d5290f958efba0fd4e19c5ee1289 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d20f3a512cddd0d3a21f4bc3904e05a3 = $(`<div id="html_d20f3a512cddd0d3a21f4bc3904e05a3" style="width: 100.0%; height: 100.0%;"><b>Good Shepherd Shelter</b><br>The agency provides transitional shelter for battered women and their children who live in Los Angeles County.</div>`)[0];
+                popup_58a4d5290f958efba0fd4e19c5ee1289.setContent(html_d20f3a512cddd0d3a21f4bc3904e05a3);
+            
+        
+
+        marker_5d77d3d482ae69bfe48ce1d851bb4807.bindPopup(popup_58a4d5290f958efba0fd4e19c5ee1289)
+        ;
+
+        
+    
+    
+            var marker_36d4d048dce31c7d8174745635a53e07 = L.marker(
+                [34.187197, -118.444481],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_df91a1375201929ca9b02a2d7de486fd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8299f66ffa65d08425f6afe1d61a336d = $(`<div id="html_8299f66ffa65d08425f6afe1d61a336d" style="width: 100.0%; height: 100.0%;"><b>Lutheran Social Services Of Southern California - San Fernando And Santa Clarita Valley Area Office</b><br>The area office provides administrative support for the programs of Lutheran Social Services in the San Fernando Valley area.</div>`)[0];
+                popup_df91a1375201929ca9b02a2d7de486fd.setContent(html_8299f66ffa65d08425f6afe1d61a336d);
+            
+        
+
+        marker_36d4d048dce31c7d8174745635a53e07.bindPopup(popup_df91a1375201929ca9b02a2d7de486fd)
+        ;
+
+        
+    
+    
+            var marker_ecf12e2641a9b047b5754ab44dae7ee8 = L.marker(
+                [33.82864, -118.116349],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_6de40224c024fa272e2e4400283c6839 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0d2a283649d27c693daeac1a4ec24e8e = $(`<div id="html_0d2a283649d27c693daeac1a4ec24e8e" style="width: 100.0%; height: 100.0%;"><b>Su Casa - Ending Domestic Violence</b><br>The center provides domestic violence services for people of all ages, including transgendered individuals, a shelter for battered persons and their children and volunteer opportunities.</div>`)[0];
+                popup_6de40224c024fa272e2e4400283c6839.setContent(html_0d2a283649d27c693daeac1a4ec24e8e);
+            
+        
+
+        marker_ecf12e2641a9b047b5754ab44dae7ee8.bindPopup(popup_6de40224c024fa272e2e4400283c6839)
+        ;
+
+        
+    
+    
+            var marker_832bc31597af23ab0928cce24a634569 = L.marker(
+                [34.04464356, -118.2434032],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_32848ccffabec0c59809e6959483f6fa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8394951dfccd87125c8b02879fc61c8a = $(`<div id="html_8394951dfccd87125c8b02879fc61c8a" style="width: 100.0%; height: 100.0%;"><b>Downtown Women's Center</b><br>The center provides emergency food and homeless support services for single women and housing for homeless mentally ill and/or adult women in the Skid Row area of Los Angeles.</div>`)[0];
+                popup_32848ccffabec0c59809e6959483f6fa.setContent(html_8394951dfccd87125c8b02879fc61c8a);
+            
+        
+
+        marker_832bc31597af23ab0928cce24a634569.bindPopup(popup_32848ccffabec0c59809e6959483f6fa)
+        ;
+
+        
+    
+    
+            var marker_b941eee895e6bea86676b0c745cd612e = L.marker(
+                [33.990459, -118.309131],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_639fc4abe84db7b42a0cb2439efa232d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a979ba279ecebe5653036f45fa3d30a9 = $(`<div id="html_a979ba279ecebe5653036f45fa3d30a9" style="width: 100.0%; height: 100.0%;"><b>Testimonial Community Love Center</b><br>The center provides emergency food, employment services, holiday assistance and shelter for people in South Central Los Angeles, including people who are homeless or undocumented.</div>`)[0];
+                popup_639fc4abe84db7b42a0cb2439efa232d.setContent(html_a979ba279ecebe5653036f45fa3d30a9);
+            
+        
+
+        marker_b941eee895e6bea86676b0c745cd612e.bindPopup(popup_639fc4abe84db7b42a0cb2439efa232d)
+        ;
+
+        
+    
+    
+            var marker_59e7f521b01f329e9b275e6b190922c2 = L.marker(
+                [34.142838, -118.008138],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_7fd78bf02faa2998ffe7c71b5db230a6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_78fa4f9edfa264e00489429d11cd1f81 = $(`<div id="html_78fa4f9edfa264e00489429d11cd1f81" style="width: 100.0%; height: 100.0%;"><b>Foothill Unity Center Inc - Monrovia</b><br>The center provides emergency food, health services, holiday assistance, and shelter for people who live in the eleven city service area of Altadena, Arcadia, Azusa, Baldwin Park, Bradbury, Duarte, Irwindale, Monrovia, Pasadena, South Pasadena and Sierra Madre.</div>`)[0];
+                popup_7fd78bf02faa2998ffe7c71b5db230a6.setContent(html_78fa4f9edfa264e00489429d11cd1f81);
+            
+        
+
+        marker_59e7f521b01f329e9b275e6b190922c2.bindPopup(popup_7fd78bf02faa2998ffe7c71b5db230a6)
+        ;
+
+        
+    
+    
+            var marker_dc99f271e4adaf49a0144a0d8f7ee5a5 = L.marker(
+                [34.065072, -118.264443],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_b0ddaeb493fc3c9623930c193a2db7ab = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_727a0d2ae6e676f426ed8faa63648f56 = $(`<div id="html_727a0d2ae6e676f426ed8faa63648f56" style="width: 100.0%; height: 100.0%;"><b>Good Shepherd Center For Homeless Women - Hawkes Transitional Residence</b><br>The center provides emergency food, homeless support services, housing services and shelter primarily for women in the Echo Park and MacArthur Park/Wilshire district.</div>`)[0];
+                popup_b0ddaeb493fc3c9623930c193a2db7ab.setContent(html_727a0d2ae6e676f426ed8faa63648f56);
+            
+        
+
+        marker_dc99f271e4adaf49a0144a0d8f7ee5a5.bindPopup(popup_b0ddaeb493fc3c9623930c193a2db7ab)
+        ;
+
+        
+    
+    
+            var marker_06e5a522fa0fc193f98320037a3cc58a = L.marker(
+                [34.066217, -118.263336],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_a18b18b63e808a6a43c6bc5582903eb8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e0d6ae1ca74013c2e8cbb34b9b0d6206 = $(`<div id="html_e0d6ae1ca74013c2e8cbb34b9b0d6206" style="width: 100.0%; height: 100.0%;"><b>Good Shepherd Center For Homeless Women - Languille Residence - Emergency Shelter</b><br>The center provides emergency food, homeless support services, housing services and shelter primarily for women in the Echo Park and MacArthur Park/Wilshire district.</div>`)[0];
+                popup_a18b18b63e808a6a43c6bc5582903eb8.setContent(html_e0d6ae1ca74013c2e8cbb34b9b0d6206);
+            
+        
+
+        marker_06e5a522fa0fc193f98320037a3cc58a.bindPopup(popup_a18b18b63e808a6a43c6bc5582903eb8)
+        ;
+
+        
+    
+    
+            var marker_e8fc35c830994aa10903e092f49fd78f = L.marker(
+                [33.99813634, -118.4774238],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_643ebdca95aa78b1406a777976d9b861 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_49126a696d2951f909faa989bc80082e = $(`<div id="html_49126a696d2951f909faa989bc80082e" style="width: 100.0%; height: 100.0%;"><b>Catholic Charities Of Los Angeles - St. Robert's Center</b><br>The center provides emergency food, information and referral for residents of Santa Monica, Venice, LAX Airport, West Los Angeles, Beverly Hills, and Culver City areas, including Malibu, Topanga, Pacific Palisades, Brentwood and Bel Air.</div>`)[0];
+                popup_643ebdca95aa78b1406a777976d9b861.setContent(html_49126a696d2951f909faa989bc80082e);
+            
+        
+
+        marker_e8fc35c830994aa10903e092f49fd78f.bindPopup(popup_643ebdca95aa78b1406a777976d9b861)
+        ;
+
+        
+    
+    
+            var marker_55a16e1a99e150cdd1e75c1b461d3a25 = L.marker(
+                [33.96021216, -118.2877668],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_0763fb961b4370cbf3a73a6e8e1985da = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5971ff0be630fa2bac876bb848a2a4c4 = $(`<div id="html_5971ff0be630fa2bac876bb848a2a4c4" style="width: 100.0%; height: 100.0%;"><b>City Of Refuge Rescue Ministry</b><br>The church provides emergency food, holiday assistance and personal goods for people who are in Los Angeles County, including people who are homeless and undocumented.</div>`)[0];
+                popup_0763fb961b4370cbf3a73a6e8e1985da.setContent(html_5971ff0be630fa2bac876bb848a2a4c4);
+            
+        
+
+        marker_55a16e1a99e150cdd1e75c1b461d3a25.bindPopup(popup_0763fb961b4370cbf3a73a6e8e1985da)
+        ;
+
+        
+    
+    
+            var marker_fbbdd6aeb4e79c36723eac88eb59f87c = L.marker(
+                [33.887524, -118.206861],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_495bd1837e4e483b2d0c08a2a1d06acc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fa1f76395ece3c245b1226537a6469dd = $(`<div id="html_fa1f76395ece3c245b1226537a6469dd" style="width: 100.0%; height: 100.0%;"><b>First United Methodist Church Of Compton</b><br>The church provides emergency food assistance and holiday assistance for people who live in Compton.</div>`)[0];
+                popup_495bd1837e4e483b2d0c08a2a1d06acc.setContent(html_fa1f76395ece3c245b1226537a6469dd);
+            
+        
+
+        marker_fbbdd6aeb4e79c36723eac88eb59f87c.bindPopup(popup_495bd1837e4e483b2d0c08a2a1d06acc)
+        ;
+
+        
+    
+    
+            var marker_6166eb4ea1cf0860e8a82a243c51f489 = L.marker(
+                [34.0319521, -118.2917489],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_34c75cfdaf3b3b6612e846b8b87df9e3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4d01df69db94cd9a55cccac2228227a2 = $(`<div id="html_4d01df69db94cd9a55cccac2228227a2" style="width: 100.0%; height: 100.0%;"><b>St. Agnes Catholic Church</b><br>The church provides emergency food for people who live within parish boundaries which include parts of Los Angeles zip codes 90007, and small sections of 90018 and 90037. See service text for parish boundaries.</div>`)[0];
+                popup_34c75cfdaf3b3b6612e846b8b87df9e3.setContent(html_4d01df69db94cd9a55cccac2228227a2);
+            
+        
+
+        marker_6166eb4ea1cf0860e8a82a243c51f489.bindPopup(popup_34c75cfdaf3b3b6612e846b8b87df9e3)
+        ;
+
+        
+    
+    
+            var marker_c1e4f1ff6cdbddbfa19e44737d3e1dd1 = L.marker(
+                [33.978559, -118.034802],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_dfa768e4744709bdfe92558fb46a1413 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_acdb7a0448164da492901ff6fa4d7b0a = $(`<div id="html_acdb7a0448164da492901ff6fa4d7b0a" style="width: 100.0%; height: 100.0%;"><b>St. Matthias Episcopal Church</b><br>The church provides emergency food, holiday assistance and homeless support services to anyone in Whittier and surrounding areas.</div>`)[0];
+                popup_dfa768e4744709bdfe92558fb46a1413.setContent(html_acdb7a0448164da492901ff6fa4d7b0a);
+            
+        
+
+        marker_c1e4f1ff6cdbddbfa19e44737d3e1dd1.bindPopup(popup_dfa768e4744709bdfe92558fb46a1413)
+        ;
+
+        
+    
+    
+            var marker_5a937c16861fa07df1b4bfb5bbb0ba6a = L.marker(
+                [34.02182287, -118.2917348],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_5ddd1cf2617c3a26ca1c794ecc35c093 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6e6c426add20c44bd2205bfb1bba25f4 = $(`<div id="html_6e6c426add20c44bd2205bfb1bba25f4" style="width: 100.0%; height: 100.0%;"><b>St. Mark's Evangelical Lutheran Church</b><br>The church provides emergency food and holiday assistance for people who live in Los Angeles County, including people who are homeless.</div>`)[0];
+                popup_5ddd1cf2617c3a26ca1c794ecc35c093.setContent(html_6e6c426add20c44bd2205bfb1bba25f4);
+            
+        
+
+        marker_5a937c16861fa07df1b4bfb5bbb0ba6a.bindPopup(popup_5ddd1cf2617c3a26ca1c794ecc35c093)
+        ;
+
+        
+    
+    
+            var marker_24d8cdd77516a826208497b57d577f07 = L.marker(
+                [34.044896, -118.245426],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_125fa20c1670ec1a0d20740e7b4310cc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b6c03d7970e0b78c6429fe6eca4f9dc8 = $(`<div id="html_b6c03d7970e0b78c6429fe6eca4f9dc8" style="width: 100.0%; height: 100.0%;"><b>Los Angeles Mission</b><br>The mission provides a variety of Christian-oriented emergency services including adult education, emergency food, holiday assistance, homeless support services and shelter for homeless men 18 years and older who are in the Central Los Angeles/Skid Row area.</div>`)[0];
+                popup_125fa20c1670ec1a0d20740e7b4310cc.setContent(html_b6c03d7970e0b78c6429fe6eca4f9dc8);
+            
+        
+
+        marker_24d8cdd77516a826208497b57d577f07.bindPopup(popup_125fa20c1670ec1a0d20740e7b4310cc)
+        ;
+
+        
+    
+    
+            var marker_9bb1007483454f4ce2f79bfd47fd0048 = L.marker(
+                [34.043339, -118.241895],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_a143d8696d6e6f932454b52c3915d6c4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_419999179e2644b806f0b256d7494512 = $(`<div id="html_419999179e2644b806f0b256d7494512" style="width: 100.0%; height: 100.0%;"><b>Fred Jordan Mission</b><br>The mission provides emergency food, holiday assistance, personal enrichment, personal goods, shelter for the homeless in the Skid Row area of downtown Los Angeles and volunteer opportunities.</div>`)[0];
+                popup_a143d8696d6e6f932454b52c3915d6c4.setContent(html_419999179e2644b806f0b256d7494512);
+            
+        
+
+        marker_9bb1007483454f4ce2f79bfd47fd0048.bindPopup(popup_a143d8696d6e6f932454b52c3915d6c4)
+        ;
+
+        
+    
+    
+            var marker_52c52b2400a5df2647930683a1e2fa2a = L.marker(
+                [34.22515, -118.570832],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_f23050e6d59b1cd568b2a2f29863c0bd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f9ae27e5bebfd50bccd8e6c5d6ddb4b4 = $(`<div id="html_f9ae27e5bebfd50bccd8e6c5d6ddb4b4" style="width: 100.0%; height: 100.0%;"><b>Our Redeemer Lutheran Church - Sfv Rescue Mission</b><br>The mission provides emergency food, holiday assistance, homeless support services, shelter, thrift shops and volunteer opportunities for people in the San Fernando Valley.</div>`)[0];
+                popup_f23050e6d59b1cd568b2a2f29863c0bd.setContent(html_f9ae27e5bebfd50bccd8e6c5d6ddb4b4);
+            
+        
+
+        marker_52c52b2400a5df2647930683a1e2fa2a.bindPopup(popup_f23050e6d59b1cd568b2a2f29863c0bd)
+        ;
+
+        
+    
+    
+            var marker_79c6a1d1bcea232d0506ec7c61244965 = L.marker(
+                [34.187325, -118.444522],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_0df90d0ac9c81a8b355b3f071d953b44 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b1038782271ad0b410c0b30cee00b55f = $(`<div id="html_b1038782271ad0b410c0b30cee00b55f" style="width: 100.0%; height: 100.0%;"><b>Lutheran Social Services/Central Lutheran Church - Sfv Rescue Mission</b><br>The mission provides emergency food, holiday assistance, homeless support services, shelter, thrift shops and volunteer opportunities for people in the San Fernando Valley.</div>`)[0];
+                popup_0df90d0ac9c81a8b355b3f071d953b44.setContent(html_b1038782271ad0b410c0b30cee00b55f);
+            
+        
+
+        marker_79c6a1d1bcea232d0506ec7c61244965.bindPopup(popup_0df90d0ac9c81a8b355b3f071d953b44)
+        ;
+
+        
+    
+    
+            var marker_1999672bc7b8efde9752350661f91cd1 = L.marker(
+                [34.208676, -118.425598],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_02378b1b562b71240d9fab9f0a57ccba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c530f0a897f668f8c05aee4544608a84 = $(`<div id="html_c530f0a897f668f8c05aee4544608a84" style="width: 100.0%; height: 100.0%;"><b>San Fernando Valley Rescue Mission</b><br>The mission provides emergency food, holiday assistance, homeless support services, shelter, thrift shops and volunteer opportunities for people in the San Fernando Valley.</div>`)[0];
+                popup_02378b1b562b71240d9fab9f0a57ccba.setContent(html_c530f0a897f668f8c05aee4544608a84);
+            
+        
+
+        marker_1999672bc7b8efde9752350661f91cd1.bindPopup(popup_02378b1b562b71240d9fab9f0a57ccba)
+        ;
+
+        
+    
+    
+            var marker_a2d94a0dd8be17ae6470472dc92d539b = L.marker(
+                [34.162854, -118.374935],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_1b52433b18c6eb9d567351e32cbee733 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5f0adc9c81113ee93ff6f62ecfe27be0 = $(`<div id="html_5f0adc9c81113ee93ff6f62ecfe27be0" style="width: 100.0%; height: 100.0%;"><b>North Hollywood 1St Baptist Church - Sfv Rescue Mission</b><br>The mission provides emergency food, holiday assistance, homeless support services, shelter, thrift shops and volunteer opportunities for people in the San Fernando Valley.</div>`)[0];
+                popup_1b52433b18c6eb9d567351e32cbee733.setContent(html_5f0adc9c81113ee93ff6f62ecfe27be0);
+            
+        
+
+        marker_a2d94a0dd8be17ae6470472dc92d539b.bindPopup(popup_1b52433b18c6eb9d567351e32cbee733)
+        ;
+
+        
+    
+    
+            var marker_7a7eed461712ad720b57727e2f4e94df = L.marker(
+                [33.784172, -118.191634],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_839e2683ceb8074757f33813a521452e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3b42cc12f1970e2e1bf0524a016f29da = $(`<div id="html_3b42cc12f1970e2e1bf0524a016f29da" style="width: 100.0%; height: 100.0%;"><b>Catholic Charities Of Los Angeles - San Pedro Region - Long Beach Community Services Center</b><br>The office administers a number of community centers and program offices within the San Pedro Pastoral Region, which extends from Palos Verdes to Pico Rivera on the north to Long Beach on the south.</div>`)[0];
+                popup_839e2683ceb8074757f33813a521452e.setContent(html_3b42cc12f1970e2e1bf0524a016f29da);
+            
+        
+
+        marker_7a7eed461712ad720b57727e2f4e94df.bindPopup(popup_839e2683ceb8074757f33813a521452e)
+        ;
+
+        
+    
+    
+            var marker_96abf2c95d76039324fcdb47c9d7b06b = L.marker(
+                [33.770721, -118.186048],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_6d8dfbd5289f18f63dacc7be9da43cd2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5ef861e2a45f6a74599de2c4ef2eff89 = $(`<div id="html_5ef861e2a45f6a74599de2c4ef2eff89" style="width: 100.0%; height: 100.0%;"><b>Christian Outreach In Action</b><br>The organization provides emergency food, holiday assistance, homeless support services, personal goods and shelter for people who are in the Long Beach area, including people who are homeless.</div>`)[0];
+                popup_6d8dfbd5289f18f63dacc7be9da43cd2.setContent(html_5ef861e2a45f6a74599de2c4ef2eff89);
+            
+        
+
+        marker_96abf2c95d76039324fcdb47c9d7b06b.bindPopup(popup_6d8dfbd5289f18f63dacc7be9da43cd2)
+        ;
+
+        
+    
+    
+            var marker_2bfd2067c669a7c7da7ad823615e0ac2 = L.marker(
+                [33.792646, -118.196027],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_cd3835d0a676392400c2538972b173ec = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e67c9e100c54d8e3d72ded4d4598dd16 = $(`<div id="html_e67c9e100c54d8e3d72ded4d4598dd16" style="width: 100.0%; height: 100.0%;"><b>Christian Outreach In Action - Transitional Housing</b><br>The organization provides emergency food, holiday assistance, homeless support services, personal goods and shelter for people who are in the Long Beach area, including people who are homeless.</div>`)[0];
+                popup_cd3835d0a676392400c2538972b173ec.setContent(html_e67c9e100c54d8e3d72ded4d4598dd16);
+            
+        
+
+        marker_2bfd2067c669a7c7da7ad823615e0ac2.bindPopup(popup_cd3835d0a676392400c2538972b173ec)
+        ;
+
+        
+    
+    
+            var marker_02d9743b1487cfcb4707f1abc0369f80 = L.marker(
+                [34.045373, -118.244974],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_e29a5ba053b8099baaf235b3bd69ca42 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_15c8687b3f0ff7fe97e4381da1a2c3bd = $(`<div id="html_15c8687b3f0ff7fe97e4381da1a2c3bd" style="width: 100.0%; height: 100.0%;"><b>Anne Douglas Center Of The Los Angeles Mission</b><br>The program provides Christian-oriented homeless support services, personal goods and substance abuse services for low-income and homeless women and women with children in the Skid Row area of downtown Los Angeles.</div>`)[0];
+                popup_e29a5ba053b8099baaf235b3bd69ca42.setContent(html_15c8687b3f0ff7fe97e4381da1a2c3bd);
+            
+        
+
+        marker_02d9743b1487cfcb4707f1abc0369f80.bindPopup(popup_e29a5ba053b8099baaf235b3bd69ca42)
+        ;
+
+        
+    
+    
+            var marker_1ac11b4548d9c01febf30e94495a0996 = L.marker(
+                [34.09322663, -118.3384142],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_954f0217f14c8a13a14d18a4d8f29d3f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4daaeacfe6b20ab520e9b2a647f22bd8 = $(`<div id="html_4daaeacfe6b20ab520e9b2a647f22bd8" style="width: 100.0%; height: 100.0%;"><b>L A Gay And Lesbian Center - Highland Annex</b><br>The program provides emergency food, HIV/AIDS services, homeless support services and shelter for people who live in Los Angeles County.</div>`)[0];
+                popup_954f0217f14c8a13a14d18a4d8f29d3f.setContent(html_4daaeacfe6b20ab520e9b2a647f22bd8);
+            
+        
+
+        marker_1ac11b4548d9c01febf30e94495a0996.bindPopup(popup_954f0217f14c8a13a14d18a4d8f29d3f)
+        ;
+
+        
+    
+    
+            var marker_702f391142999ed9a24a539064b4fb5c = L.marker(
+                [34.100248, -118.332615],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_ba544c6afc8918fff0a11dc9d644b039 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f772c00c550fa239c83d681008b3d568 = $(`<div id="html_f772c00c550fa239c83d681008b3d568" style="width: 100.0%; height: 100.0%;"><b>L A Gay And Lesbian Center - Youth Services Program</b><br>The program provides emergency food, HIV/AIDS services, homeless support services and shelter for people who live in Los Angeles County.</div>`)[0];
+                popup_ba544c6afc8918fff0a11dc9d644b039.setContent(html_f772c00c550fa239c83d681008b3d568);
+            
+        
+
+        marker_702f391142999ed9a24a539064b4fb5c.bindPopup(popup_ba544c6afc8918fff0a11dc9d644b039)
+        ;
+
+        
+    
+    
+            var marker_49cfcf12cf79ac4f94a1dec37c87caf5 = L.marker(
+                [33.828859, -118.276746],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_054e638d0b668907b06ba3fd09258405 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4549f5ffdbcfc543974ab10f017a04f1 = $(`<div id="html_4549f5ffdbcfc543974ab10f017a04f1" style="width: 100.0%; height: 100.0%;"><b>St. Philomena Church</b><br>The program provides emergency food and holiday assistance for low-income residents of Carson, Long Beach zip code 90810 and Torrance zip code 90502.</div>`)[0];
+                popup_054e638d0b668907b06ba3fd09258405.setContent(html_4549f5ffdbcfc543974ab10f017a04f1);
+            
+        
+
+        marker_49cfcf12cf79ac4f94a1dec37c87caf5.bindPopup(popup_054e638d0b668907b06ba3fd09258405)
+        ;
+
+        
+    
+    
+            var marker_aba9472af121302886b2a4cfdfedf911 = L.marker(
+                [34.010111, -117.97892],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_25d020f5e4d92a9a6a50d67ba72d457e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_103dc6512fc74899adeae81c365f4577 = $(`<div id="html_103dc6512fc74899adeae81c365f4577" style="width: 100.0%; height: 100.0%;"><b>East San Gabriel Valley Coalition For The Homeless</b><br>The program provides emergency food, information and referral, personal goods and transportation assistance for homeless people in the East San Gabriel Valley area.</div>`)[0];
+                popup_25d020f5e4d92a9a6a50d67ba72d457e.setContent(html_103dc6512fc74899adeae81c365f4577);
+            
+        
+
+        marker_aba9472af121302886b2a4cfdfedf911.bindPopup(popup_25d020f5e4d92a9a6a50d67ba72d457e)
+        ;
+
+        
+    
+    
+            var marker_bc49da308077dc49b573f42daeeb066a = L.marker(
+                [34.0423, -118.24643],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_6df8c93bb4d9054eacdd3e93c0c9860a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2cf5ce08ce424e0043df7f75bd9c5fd9 = $(`<div id="html_2cf5ce08ce424e0043df7f75bd9c5fd9" style="width: 100.0%; height: 100.0%;"><b>Volunteers Of America - San Julian Access Center</b><br>The program provides homeless support services in Downtown Los Angeles.</div>`)[0];
+                popup_6df8c93bb4d9054eacdd3e93c0c9860a.setContent(html_2cf5ce08ce424e0043df7f75bd9c5fd9);
+            
+        
+
+        marker_bc49da308077dc49b573f42daeeb066a.bindPopup(popup_6df8c93bb4d9054eacdd3e93c0c9860a)
+        ;
+
+        
+    
+    
+            var marker_171838a60fa0450e61acd79a6e26c03c = L.marker(
+                [33.921085, -118.204697],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_6326d1c18e011c5f6f6359842ac20dd8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4eff78b0d8f0d5f398db4c8276dc0804 = $(`<div id="html_4eff78b0d8f0d5f398db4c8276dc0804" style="width: 100.0%; height: 100.0%;"><b>Jordan's Disciples Community Service - Root 66</b><br>The program provides shelter for pregnant women and women with children who are in Carson, Compton, Lynwood and Los Angeles.</div>`)[0];
+                popup_6326d1c18e011c5f6f6359842ac20dd8.setContent(html_4eff78b0d8f0d5f398db4c8276dc0804);
+            
+        
+
+        marker_171838a60fa0450e61acd79a6e26c03c.bindPopup(popup_6326d1c18e011c5f6f6359842ac20dd8)
+        ;
+
+        
+    
+    
+            var marker_40a5f741776721a5adec4112a54d7765 = L.marker(
+                [33.981272, -118.216134],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_5493ede0a32971f89cf7ed23791ec50d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b8423e30d888c961e6bfb162df8c56b7 = $(`<div id="html_b8423e30d888c961e6bfb162df8c56b7" style="width: 100.0%; height: 100.0%;"><b>Salvation Army Corps Community Center - Huntington Park</b><br>This agency provides a companionship program, emergency food, holiday assistance, homeless support services, personal enrichment and utility bill assistance for people who live in Bell, Bell Gardens, Cudahy, Downey, Huntington Park, Maywood, South Gate, Vernon and Walnut Park.</div>`)[0];
+                popup_5493ede0a32971f89cf7ed23791ec50d.setContent(html_b8423e30d888c961e6bfb162df8c56b7);
+            
+        
+
+        marker_40a5f741776721a5adec4112a54d7765.bindPopup(popup_5493ede0a32971f89cf7ed23791ec50d)
+        ;
+
+        
+    
+    
+            var marker_ebaf4c3b10b88b0d9b5e896e4de1dea5 = L.marker(
+                [34.052022, -118.220218],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_853693886f4815731153f2951d636e59 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c6ea6e8d10a8b68d76d3952007b4a016 = $(`<div id="html_c6ea6e8d10a8b68d76d3952007b4a016" style="width: 100.0%; height: 100.0%;"><b>Catholic Charities Of Los Angeles - Brownson House</b><br>This agency provides emergency food, holiday assistance, motel vouchers and utility bill assistance.</div>`)[0];
+                popup_853693886f4815731153f2951d636e59.setContent(html_c6ea6e8d10a8b68d76d3952007b4a016);
+            
+        
+
+        marker_ebaf4c3b10b88b0d9b5e896e4de1dea5.bindPopup(popup_853693886f4815731153f2951d636e59)
+        ;
+
+        
+    
+    
+            var marker_ec75ddaf9f43c9e714a9dd14eb392329 = L.marker(
+                [34.248295, -118.27712],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_896ce384a220fd1259ffc858aeac1613 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c5ee7e7948edeb5cd9aee31712c7588c = $(`<div id="html_c5ee7e7948edeb5cd9aee31712c7588c" style="width: 100.0%; height: 100.0%;"><b>Tujunga United Methodist Church</b><br>This agency provides clothing, emergency food, holiday assistance, homeless support services, medical supply loans for people in La Crescenta, Lake View Terrace, Montrose, Sunland and Tujunga, including people who are undocumented or who are homeless.</div>`)[0];
+                popup_896ce384a220fd1259ffc858aeac1613.setContent(html_c5ee7e7948edeb5cd9aee31712c7588c);
+            
+        
+
+        marker_ec75ddaf9f43c9e714a9dd14eb392329.bindPopup(popup_896ce384a220fd1259ffc858aeac1613)
+        ;
+
+        
+    
+    
+            var marker_11982da06cf99b5b59deea9b992e7999 = L.marker(
+                [33.755173, -118.108203],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_f224026845e566fce59c7578312d8d99 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_efd841fa0bb452e83f38384b6ec5cbd8 = $(`<div id="html_efd841fa0bb452e83f38384b6ec5cbd8" style="width: 100.0%; height: 100.0%;"><b>Interval House</b><br>This agency provides domestic violence services, a battered women's shelter for battered women and their children and welfare-to-work support services to battered women who receive CalWORKs and live primarily in the Long Beach and the surrounding areas.</div>`)[0];
+                popup_f224026845e566fce59c7578312d8d99.setContent(html_efd841fa0bb452e83f38384b6ec5cbd8);
+            
+        
+
+        marker_11982da06cf99b5b59deea9b992e7999.bindPopup(popup_f224026845e566fce59c7578312d8d99)
+        ;
+
+        
+    
+    
+            var marker_bf624e2cc71cab904fee4c4bbed8f8a0 = L.marker(
+                [34.579771, -118.100671],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_447b1eaf88ceee957720e9115b1d2f41 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9f6abd8695137c056720c0dd64571a7b = $(`<div id="html_9f6abd8695137c056720c0dd64571a7b" style="width: 100.0%; height: 100.0%;"><b>Mental Health America Of Los Angeles - Antelope Valley Services - Discovery Resource Center</b><br>This agency provides homeless support, mental health services and volunteer opportunities for people in the Antelope Valley area.</div>`)[0];
+                popup_447b1eaf88ceee957720e9115b1d2f41.setContent(html_9f6abd8695137c056720c0dd64571a7b);
+            
+        
+
+        marker_bf624e2cc71cab904fee4c4bbed8f8a0.bindPopup(popup_447b1eaf88ceee957720e9115b1d2f41)
+        ;
+
+        
+    
+    
+            var marker_e16790014c2bc556cdaafc28ff8b5f25 = L.marker(
+                [34.7017657, -118.1386737],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_7bf6ac29427ec20b8391693bb780a454 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ef72db2fddbae030e741edac8905eb69 = $(`<div id="html_ef72db2fddbae030e741edac8905eb69" style="width: 100.0%; height: 100.0%;"><b>Mental Health America Of Los Angeles - Antelope Valley Services</b><br>This agency provides homeless support, mental health services and volunteer opportunities for people in the Antelope Valley area.</div>`)[0];
+                popup_7bf6ac29427ec20b8391693bb780a454.setContent(html_ef72db2fddbae030e741edac8905eb69);
+            
+        
+
+        marker_e16790014c2bc556cdaafc28ff8b5f25.bindPopup(popup_7bf6ac29427ec20b8391693bb780a454)
+        ;
+
+        
+    
+    
+            var marker_aea8fe475d1fe341a5ed3167c12c5fbf = L.marker(
+                [34.054048, -118.279916],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_9a68ca98ede649007594338f736bd7ca = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6861cac9e1317c26402b25ac12ba5ae0 = $(`<div id="html_6861cac9e1317c26402b25ac12ba5ae0" style="width: 100.0%; height: 100.0%;"><b>Center For Human Rights And Constitutional Law - Homeless Youth Project</b><br>This agency provides shelter for homeless youth age 12 to 17 who are in Los Angeles County.</div>`)[0];
+                popup_9a68ca98ede649007594338f736bd7ca.setContent(html_6861cac9e1317c26402b25ac12ba5ae0);
+            
+        
+
+        marker_aea8fe475d1fe341a5ed3167c12c5fbf.bindPopup(popup_9a68ca98ede649007594338f736bd7ca)
+        ;
+
+        
+    
+    
+            var marker_4a856f88544defd6d172bd2e0bade622 = L.marker(
+                [34.077438, -117.752859],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_7baedc00fe85cf38d35ba83ce73f20f6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_22a29f92b9319867d182a162bc38f7dd = $(`<div id="html_22a29f92b9319867d182a162bc38f7dd" style="width: 100.0%; height: 100.0%;"><b>Inland Valley Hope Partners - Our House Shelter Administrative Office</b><br>The organization's programs provides emergency food, financial assistance, holiday assistance and shelter for people who primarily live in the Inland Valley.</div>`)[0];
+                popup_7baedc00fe85cf38d35ba83ce73f20f6.setContent(html_22a29f92b9319867d182a162bc38f7dd);
+            
+        
+
+        marker_4a856f88544defd6d172bd2e0bade622.bindPopup(popup_7baedc00fe85cf38d35ba83ce73f20f6)
+        ;
+
+        
+    
+    
+            var marker_ed29568387bdaebad770761c5afe1e44 = L.marker(
+                [34.06442402, -117.7533897],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_b1e19a45d74c432cb3b8a5516dc78c53 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d1c8d38fc344339cf68b1c261659f5d2 = $(`<div id="html_d1c8d38fc344339cf68b1c261659f5d2" style="width: 100.0%; height: 100.0%;"><b>Inland Valley Hope Partners - Beta Food Security Site</b><br>The organization's programs provides emergency food, financial assistance, holiday assistance and shelter for people who primarily live in the Inland Valley.</div>`)[0];
+                popup_b1e19a45d74c432cb3b8a5516dc78c53.setContent(html_d1c8d38fc344339cf68b1c261659f5d2);
+            
+        
+
+        marker_ed29568387bdaebad770761c5afe1e44.bindPopup(popup_b1e19a45d74c432cb3b8a5516dc78c53)
+        ;
+
+        
+    
+    
+            var marker_3ca86cead38b4c4fd0e0e095d0f4128c = L.marker(
+                [34.10031, -117.728836],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_009ee1aa226e92a08bd41a36a6c04936 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f55c4794109af220de856e0852708a16 = $(`<div id="html_f55c4794109af220de856e0852708a16" style="width: 100.0%; height: 100.0%;"><b>Inland Valley Hope Partners - Claremont Center</b><br>The organization's programs provides emergency food, financial assistance, holiday assistance and shelter for people who primarily live in the Inland Valley.</div>`)[0];
+                popup_009ee1aa226e92a08bd41a36a6c04936.setContent(html_f55c4794109af220de856e0852708a16);
+            
+        
+
+        marker_3ca86cead38b4c4fd0e0e095d0f4128c.bindPopup(popup_009ee1aa226e92a08bd41a36a6c04936)
+        ;
+
+        
+    
+    
+            var marker_1fea35466f11c5d45bcfaf63ddfe03f5 = L.marker(
+                [34.032758, -118.331133],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_31a53f96c32183316a545877810445f1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6551cb5e266b0b4d90478bb6b09bc826 = $(`<div id="html_6551cb5e266b0b4d90478bb6b09bc826" style="width: 100.0%; height: 100.0%;"><b>Berean 7Th Day Adventist Church Community Services</b><br>This program provides emergency food and holiday assistance for people who live in Los Angeles County.</div>`)[0];
+                popup_31a53f96c32183316a545877810445f1.setContent(html_6551cb5e266b0b4d90478bb6b09bc826);
+            
+        
+
+        marker_1fea35466f11c5d45bcfaf63ddfe03f5.bindPopup(popup_31a53f96c32183316a545877810445f1)
+        ;
+
+        
+    
+    
+            var marker_e5bbc4c2ff8bbeb3a368ef53309a7adc = L.marker(
+                [34.080117, -117.976835],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_42f6a95e07bf84a8ff92abcaf1f97ed6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_62e4230183b6504fc0f92defcbe74dbd = $(`<div id="html_62e4230183b6504fc0f92defcbe74dbd" style="width: 100.0%; height: 100.0%;"><b>Church Of The Redeemer</b><br>This program provides emergency food and holiday assistance for anyone in need.</div>`)[0];
+                popup_42f6a95e07bf84a8ff92abcaf1f97ed6.setContent(html_62e4230183b6504fc0f92defcbe74dbd);
+            
+        
+
+        marker_e5bbc4c2ff8bbeb3a368ef53309a7adc.bindPopup(popup_42f6a95e07bf84a8ff92abcaf1f97ed6)
+        ;
+
+        
+    
+    
+            var marker_6474616efe4d775d3731f727e42f2922 = L.marker(
+                [34.069294, -118.273482],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_b1a5ae7e5d2d1cc405258097f245342e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_55fa3352248e335ca1a8d592037cbf65 = $(`<div id="html_55fa3352248e335ca1a8d592037cbf65" style="width: 100.0%; height: 100.0%;"><b>Filipino American Service Group Inc</b><br>The agency provides community services, health services, services for older adults and shelter to homeless adults with health and mental health issues who live in Los Angeles County area.</div>`)[0];
+                popup_b1a5ae7e5d2d1cc405258097f245342e.setContent(html_55fa3352248e335ca1a8d592037cbf65);
+            
+        
+
+        marker_6474616efe4d775d3731f727e42f2922.bindPopup(popup_b1a5ae7e5d2d1cc405258097f245342e)
+        ;
+
+        
+    
+    
+            var marker_18e32bef6dd3eef8fa1e2c820f294083 = L.marker(
+                [34.0259176, -118.2839734],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_496b5202b4ba8e1083cea870df55a734 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c4b84ff857927a76d95c62c56bbd7285 = $(`<div id="html_c4b84ff857927a76d95c62c56bbd7285" style="width: 100.0%; height: 100.0%;"><b>Ella's Foundation</b><br></div>`)[0];
+                popup_496b5202b4ba8e1083cea870df55a734.setContent(html_c4b84ff857927a76d95c62c56bbd7285);
+            
+        
+
+        marker_18e32bef6dd3eef8fa1e2c820f294083.bindPopup(popup_496b5202b4ba8e1083cea870df55a734)
+        ;
+
+        
+    
+    
+            var marker_a93f0cec0759bb4557ce299455bf8f6a = L.marker(
+                [33.938265, -118.2580334],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_401babffc94915dcff0d5e03cbe6ce12 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5adfb440808ff5d001f62d75163c3bf7 = $(`<div id="html_5adfb440808ff5d001f62d75163c3bf7" style="width: 100.0%; height: 100.0%;"><b> Access Center (WLCAC Access Center for Homeless Services)</b><br></div>`)[0];
+                popup_401babffc94915dcff0d5e03cbe6ce12.setContent(html_5adfb440808ff5d001f62d75163c3bf7);
+            
+        
+
+        marker_a93f0cec0759bb4557ce299455bf8f6a.bindPopup(popup_401babffc94915dcff0d5e03cbe6ce12)
+        ;
+
+        
+    
+    
+            var marker_8243dc9d5f5b2d1ad3699bc905673488 = L.marker(
+                [33.7383765, -118.3086858],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_f0e97d9282341ef0f43927cc0044a45e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0ab5d5ca6c8aabad13feb3877965a93e = $(`<div id="html_0ab5d5ca6c8aabad13feb3877965a93e" style="width: 100.0%; height: 100.0%;"><b>Family Source Center</b><br></div>`)[0];
+                popup_f0e97d9282341ef0f43927cc0044a45e.setContent(html_0ab5d5ca6c8aabad13feb3877965a93e);
+            
+        
+
+        marker_8243dc9d5f5b2d1ad3699bc905673488.bindPopup(popup_f0e97d9282341ef0f43927cc0044a45e)
+        ;
+
+        
+    
+    
+            var marker_e2cc34b5a3c9b83b91846d699f4192fa = L.marker(
+                [33.960765, -118.240169],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_8695efdd94e72ba94371532430912530 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8abf98e80977d7b04526727ae27d2457 = $(`<div id="html_8abf98e80977d7b04526727ae27d2457" style="width: 100.0%; height: 100.0%;"><b>Housing - Immanuel Housing Inc. Immanuel House of Hope</b><br></div>`)[0];
+                popup_8695efdd94e72ba94371532430912530.setContent(html_8abf98e80977d7b04526727ae27d2457);
+            
+        
+
+        marker_e2cc34b5a3c9b83b91846d699f4192fa.bindPopup(popup_8695efdd94e72ba94371532430912530)
+        ;
+
+        
+    
+    
+            var marker_5c788a26ed2bea376924a1b7a431dc6c = L.marker(
+                [34.013486, -118.293448],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_8f0516a6cb98551fe1792b253d1c3f2a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d23b5b23963512e4e7c8a3bfb6df5823 = $(`<div id="html_d23b5b23963512e4e7c8a3bfb6df5823" style="width: 100.0%; height: 100.0%;"><b>Housing Coalition Education</b><br></div>`)[0];
+                popup_8f0516a6cb98551fe1792b253d1c3f2a.setContent(html_d23b5b23963512e4e7c8a3bfb6df5823);
+            
+        
+
+        marker_5c788a26ed2bea376924a1b7a431dc6c.bindPopup(popup_8f0516a6cb98551fe1792b253d1c3f2a)
+        ;
+
+        
+    
+    
+            var marker_c1d24d442d64c5743fac30f0fa003d62 = L.marker(
+                [33.959281, -118.293364],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_d20cc012fccb6c6bbace328253b280f2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7cf432e2ce614b3eb2cee434926c5627 = $(`<div id="html_7cf432e2ce614b3eb2cee434926c5627" style="width: 100.0%; height: 100.0%;"><b>St. Catherine's Episcopal Diocese of Los Angeles</b><br></div>`)[0];
+                popup_d20cc012fccb6c6bbace328253b280f2.setContent(html_7cf432e2ce614b3eb2cee434926c5627);
+            
+        
+
+        marker_c1d24d442d64c5743fac30f0fa003d62.bindPopup(popup_d20cc012fccb6c6bbace328253b280f2)
+        ;
+
+        
+    
+    
+            var marker_ac3202e18b24191f4c1fefa2cb547176 = L.marker(
+                [33.9827294, -118.0961111],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_c1778df393770e8af490ef78faa737da = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2d1edc20541323cc16b931d1ce2b8d03 = $(`<div id="html_2d1edc20541323cc16b931d1ce2b8d03" style="width: 100.0%; height: 100.0%;"><b>Angel Step Inn Domestic Violence Emergency Shelter</b><br>The agency provides domestic violence services, residential treatment for substance abuse, shelter and welfare-to-work support services for people who live in Los Angeles County.</div>`)[0];
+                popup_c1778df393770e8af490ef78faa737da.setContent(html_2d1edc20541323cc16b931d1ce2b8d03);
+            
+        
+
+        marker_ac3202e18b24191f4c1fefa2cb547176.bindPopup(popup_c1778df393770e8af490ef78faa737da)
+        ;
+
+        
+    
+    
+            var marker_2ced968900fee0cc7f61403cae8d3921 = L.marker(
+                [33.781662, -118.187983],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_48a3a5857b684715133141ad42d52337 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_67f882790499149302414627cb344c36 = $(`<div id="html_67f882790499149302414627cb344c36" style="width: 100.0%; height: 100.0%;"><b>Long Beach Family Shelter For The Homeless</b><br>The agency provides shelter for people of all ages in the Long Beach area, including families with children and people who have physical disabilities.</div>`)[0];
+                popup_48a3a5857b684715133141ad42d52337.setContent(html_67f882790499149302414627cb344c36);
+            
+        
+
+        marker_2ced968900fee0cc7f61403cae8d3921.bindPopup(popup_48a3a5857b684715133141ad42d52337)
+        ;
+
+        
+    
+    
+            var marker_d63e930fe518a739f807125a4d54d780 = L.marker(
+                [27.19601, -138.152186],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_faf83f099c4645b572fe711e7dd64c15 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_59213075c16fc5ea3e24115dbf10cae8 = $(`<div id="html_59213075c16fc5ea3e24115dbf10cae8" style="width: 100.0%; height: 100.0%;"><b>Bilingual Shelter For Victims Of Domestic Violence</b><br>The agency provides a battered women's shelter, domestic violence services and welfare-to-work support services for women with children who are in Los Angeles County.</div>`)[0];
+                popup_faf83f099c4645b572fe711e7dd64c15.setContent(html_59213075c16fc5ea3e24115dbf10cae8);
+            
+        
+
+        marker_d63e930fe518a739f807125a4d54d780.bindPopup(popup_faf83f099c4645b572fe711e7dd64c15)
+        ;
+
+        
+    
+    
+            var marker_7bf37c68b2469dd5ca0daad08031d101 = L.marker(
+                [34.042963, -118.26415],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_4039c6c912815e55f68c0bf631f8769a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c5000026d4718e8302690fa83e420da5 = $(`<div id="html_c5000026d4718e8302690fa83e420da5" style="width: 100.0%; height: 100.0%;"><b>Free Spirit: For Victims Of Domestic Violence</b><br>The agency provides a battered women's shelter and welfare-to-work support services for women with children who are in Los Angeles County.</div>`)[0];
+                popup_4039c6c912815e55f68c0bf631f8769a.setContent(html_c5000026d4718e8302690fa83e420da5);
+            
+        
+
+        marker_7bf37c68b2469dd5ca0daad08031d101.bindPopup(popup_4039c6c912815e55f68c0bf631f8769a)
+        ;
+
+        
+    
+    
+            var marker_31b887678ee23474d4bf1787e2bbc700 = L.marker(
+                [34.155705, -118.235978],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_3b8192fcbfb75d6500864f2b6ac22a64 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a2626c024d9e8bf4b4d095a5898ba160 = $(`<div id="html_a2626c024d9e8bf4b4d095a5898ba160" style="width: 100.0%; height: 100.0%;"><b>Ywca Glendale - Ywca Battered Women's Shelter - Sunrise Village</b><br>The agency provides domestic violence services, health services and shelter for battered women, and health services for women.</div>`)[0];
+                popup_3b8192fcbfb75d6500864f2b6ac22a64.setContent(html_a2626c024d9e8bf4b4d095a5898ba160);
+            
+        
+
+        marker_31b887678ee23474d4bf1787e2bbc700.bindPopup(popup_3b8192fcbfb75d6500864f2b6ac22a64)
+        ;
+
+        
+    
+    
+            var marker_e5049bfb38985a855af7e6fea6ec9331 = L.marker(
+                [34.04402523, -118.2451921],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_494bb227b942992dee236e2a2a9251cd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3588639dbac50f8b97c55305ecb5047d = $(`<div id="html_3588639dbac50f8b97c55305ecb5047d" style="width: 100.0%; height: 100.0%;"><b>Angelus Inn - Sro Housing Corporation</b><br>The agency provides low-cost housing for homeless and low-income adults in the Skid Row area of downtown Los Angeles.</div>`)[0];
+                popup_494bb227b942992dee236e2a2a9251cd.setContent(html_3588639dbac50f8b97c55305ecb5047d);
+            
+        
+
+        marker_e5049bfb38985a855af7e6fea6ec9331.bindPopup(popup_494bb227b942992dee236e2a2a9251cd)
+        ;
+
+        
+    
+    
+            var marker_08b9a9c787375122d988f33778101cae = L.marker(
+                [34.0441195, -118.2454394],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_454c4c2960a16eab0c9f9f52c32ef951 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_001fe0c4e13cd0f43a1ca8941504e045 = $(`<div id="html_001fe0c4e13cd0f43a1ca8941504e045" style="width: 100.0%; height: 100.0%;"><b>Russ - Sro Housing Corporation</b><br>The agency provides low-cost housing for homeless and low-income adults in the Skid Row area of downtown Los Angeles.</div>`)[0];
+                popup_454c4c2960a16eab0c9f9f52c32ef951.setContent(html_001fe0c4e13cd0f43a1ca8941504e045);
+            
+        
+
+        marker_08b9a9c787375122d988f33778101cae.bindPopup(popup_454c4c2960a16eab0c9f9f52c32ef951)
+        ;
+
+        
+    
+    
+            var marker_6363bfd3945489266a7746a053301a31 = L.marker(
+                [34.07748055, -118.2890107],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_b70933911ebd4e33dd32e3382999e4e0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ef05932573e14705ebbd639cf9730f40 = $(`<div id="html_ef05932573e14705ebbd639cf9730f40" style="width: 100.0%; height: 100.0%;"><b>People Assisting The Homeless - Regional Homeless Center</b><br>The organization provides shelter for homeless and at-risk adults and volunteer opportunities in Los Angeles County.</div>`)[0];
+                popup_b70933911ebd4e33dd32e3382999e4e0.setContent(html_ef05932573e14705ebbd639cf9730f40);
+            
+        
+
+        marker_6363bfd3945489266a7746a053301a31.bindPopup(popup_b70933911ebd4e33dd32e3382999e4e0)
+        ;
+
+        
+    
+    
+            var marker_7ab904da293c5e1eff25732126aa2a73 = L.marker(
+                [34.384353, -118.518513],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_d4ec28a02c950181e2e1ff50d7fb25e4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f40d6a89037e73c7548323c834994d11 = $(`<div id="html_f40d6a89037e73c7548323c834994d11" style="width: 100.0%; height: 100.0%;"><b>Domestic Violence Center Of Santa Clarita</b><br>The agency provides a battered women's shelter and domestic violence services for people in Los Angeles County.</div>`)[0];
+                popup_d4ec28a02c950181e2e1ff50d7fb25e4.setContent(html_f40d6a89037e73c7548323c834994d11);
+            
+        
+
+        marker_7ab904da293c5e1eff25732126aa2a73.bindPopup(popup_d4ec28a02c950181e2e1ff50d7fb25e4)
+        ;
+
+        
+    
+    
+            var marker_b3d7886b968a3a9a322a4365618c5327 = L.marker(
+                [34.02738808, -118.4937735],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_41aa943381dac97b0f0dd474129eec0f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6bb811b5ad6be5da9c4461cb94a17d4a = $(`<div id="html_6bb811b5ad6be5da9c4461cb94a17d4a" style="width: 100.0%; height: 100.0%;"><b>Upward Bound House - Family Place</b><br>The agency provides shelter for homeless families with children.</div>`)[0];
+                popup_41aa943381dac97b0f0dd474129eec0f.setContent(html_6bb811b5ad6be5da9c4461cb94a17d4a);
+            
+        
+
+        marker_b3d7886b968a3a9a322a4365618c5327.bindPopup(popup_41aa943381dac97b0f0dd474129eec0f)
+        ;
+
+        
+    
+    
+            var marker_e437d71d5c5a2dd9f4c30b058ec883c0 = L.marker(
+                [34.20049429, -118.537488],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_d7db6612763f2edea5ef580c6afec54d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6579abaf30bf5dab87b669f1616602c3 = $(`<div id="html_6579abaf30bf5dab87b669f1616602c3" style="width: 100.0%; height: 100.0%;"><b>Zoe Christian Fellowship - Sfv Rescue Mission</b><br>The mission provides emergency food, holiday assistance, homeless support services, shelter, thrift shops and volunteer opportunities for people in the San Fernando Valley.</div>`)[0];
+                popup_d7db6612763f2edea5ef580c6afec54d.setContent(html_6579abaf30bf5dab87b669f1616602c3);
+            
+        
+
+        marker_e437d71d5c5a2dd9f4c30b058ec883c0.bindPopup(popup_d7db6612763f2edea5ef580c6afec54d)
+        ;
+
+        
+    
+    
+            var marker_d96cbf7f954ffbc8db7f7c2bc44f9f37 = L.marker(
+                [34.25580714, -118.5971321],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_4d32b1f2c7b84cc73c14b3ebe3ef9a50 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d92d1efb6c23df2369caa12337f10d0b = $(`<div id="html_d92d1efb6c23df2369caa12337f10d0b" style="width: 100.0%; height: 100.0%;"><b>Chatsworth Foursquare Church - Sfv Rescue Mission</b><br>The mission provides emergency food, holiday assistance, homeless support services, shelter, thrift shops and volunteer opportunities for people in the San Fernando Valley.</div>`)[0];
+                popup_4d32b1f2c7b84cc73c14b3ebe3ef9a50.setContent(html_d92d1efb6c23df2369caa12337f10d0b);
+            
+        
+
+        marker_d96cbf7f954ffbc8db7f7c2bc44f9f37.bindPopup(popup_4d32b1f2c7b84cc73c14b3ebe3ef9a50)
+        ;
+
+        
+    
+    
+            var marker_efc932849397681a2f0088def8f36c77 = L.marker(
+                [34.05508345, -118.4535687],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_7b62bc5b1133d5263c81a62f55890c1d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_32a47d00e44f5b734bb65509fb369d4b = $(`<div id="html_32a47d00e44f5b734bb65509fb369d4b" style="width: 100.0%; height: 100.0%;"><b>Salvation Army Haven Program - Bldg. 212</b><br>The agency provides employment services, housing services, residential treatment for substance abuse, and shelter for homeless veterans in Los Angeles County.</div>`)[0];
+                popup_7b62bc5b1133d5263c81a62f55890c1d.setContent(html_32a47d00e44f5b734bb65509fb369d4b);
+            
+        
+
+        marker_efc932849397681a2f0088def8f36c77.bindPopup(popup_7b62bc5b1133d5263c81a62f55890c1d)
+        ;
+
+        
+    
+    
+            var marker_92c8419cb7e4b1cdd63eae030b7d05f3 = L.marker(
+                [34.05508345, -118.4535687],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_bd53700cff82b838e9f7291bef9b87bd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4c058f4758ee5799c71007de069ee979 = $(`<div id="html_4c058f4758ee5799c71007de069ee979" style="width: 100.0%; height: 100.0%;"><b>Salvation Army Haven Program - Bldg. 207</b><br>The agency provides employment services, housing services, residential treatment for substance abuse, and shelter for homeless veterans in Los Angeles County.</div>`)[0];
+                popup_bd53700cff82b838e9f7291bef9b87bd.setContent(html_4c058f4758ee5799c71007de069ee979);
+            
+        
+
+        marker_92c8419cb7e4b1cdd63eae030b7d05f3.bindPopup(popup_bd53700cff82b838e9f7291bef9b87bd)
+        ;
+
+        
+    
+    
+            var marker_805519822c64db0b3ded063a5dd29ee2 = L.marker(
+                [33.83208417, -118.2704331],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_4d5fb939a4b92e441c1c450d6d58f424 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_38d6a014193a9d0e63b6290ca9bff305 = $(`<div id="html_38d6a014193a9d0e63b6290ca9bff305" style="width: 100.0%; height: 100.0%;"><b>Vets On The Move Foundation</b><br>The agency provides shelter services for veterans in Los Angeles County.</div>`)[0];
+                popup_4d5fb939a4b92e441c1c450d6d58f424.setContent(html_38d6a014193a9d0e63b6290ca9bff305);
+            
+        
+
+        marker_805519822c64db0b3ded063a5dd29ee2.bindPopup(popup_4d5fb939a4b92e441c1c450d6d58f424)
+        ;
+
+        
+    
+    
+            var marker_4226393732cbae89bba873025d674673 = L.marker(
+                [33.73615828, -118.2915811],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_7efea9ef34dc44de288adddc25812f3e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2319736b38bf17f7a376c8b1daeb1456 = $(`<div id="html_2319736b38bf17f7a376c8b1daeb1456" style="width: 100.0%; height: 100.0%;"><b>Year Round Shelter - Harbor Interfaith Services</b><br>The agency provides shelter, motel vouchers and transportation to homeless individuals and families.</div>`)[0];
+                popup_7efea9ef34dc44de288adddc25812f3e.setContent(html_2319736b38bf17f7a376c8b1daeb1456);
+            
+        
+
+        marker_4226393732cbae89bba873025d674673.bindPopup(popup_7efea9ef34dc44de288adddc25812f3e)
+        ;
+
+        
+    
+    
+            var marker_bfc428649ed2f44dc222d54f39ce224f = L.marker(
+                [34.07306529, -118.0342539],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_75a66746fa2ade014ea46772c3b6ea59 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_443d1a8c3ad1caa087835c799d4ce666 = $(`<div id="html_443d1a8c3ad1caa087835c799d4ce666" style="width: 100.0%; height: 100.0%;"><b>Year Round Shelter - California Hispanic Commission On Alcohol & Drug Abuse Inc.</b><br>The agency provides shelter, motel vouchers and transportation to homeless individuals and families.</div>`)[0];
+                popup_75a66746fa2ade014ea46772c3b6ea59.setContent(html_443d1a8c3ad1caa087835c799d4ce666);
+            
+        
+
+        marker_bfc428649ed2f44dc222d54f39ce224f.bindPopup(popup_75a66746fa2ade014ea46772c3b6ea59)
+        ;
+
+        
+    
+    
+            var marker_f00ba73d08edbcca7396e0d5156b7311 = L.marker(
+                [34.09905916, -118.3221586],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_75b73c521b618464793b0d0f63c82631 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_26ad1b6d417b909452e49703cab407aa = $(`<div id="html_26ad1b6d417b909452e49703cab407aa" style="width: 100.0%; height: 100.0%;"><b>Year Round Shelter - Los Angeles Youth Network - Gower</b><br>The agency provides shelter, motel vouchers and transportation to homeless individuals and families.</div>`)[0];
+                popup_75b73c521b618464793b0d0f63c82631.setContent(html_26ad1b6d417b909452e49703cab407aa);
+            
+        
+
+        marker_f00ba73d08edbcca7396e0d5156b7311.bindPopup(popup_75b73c521b618464793b0d0f63c82631)
+        ;
+
+        
+    
+    
+            var marker_410fedcf85958231dd8bdf0dd776e14e = L.marker(
+                [34.04338459, -118.2441901],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_a53ebda461b6b09c5f4679dc37906db7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_53f39fe3202ee56922281919e0ca1580 = $(`<div id="html_53f39fe3202ee56922281919e0ca1580" style="width: 100.0%; height: 100.0%;"><b>Year Round Shelter - Lamp Community</b><br>The agency provides shelter, motel vouchers and transportation to homeless individuals and families.</div>`)[0];
+                popup_a53ebda461b6b09c5f4679dc37906db7.setContent(html_53f39fe3202ee56922281919e0ca1580);
+            
+        
+
+        marker_410fedcf85958231dd8bdf0dd776e14e.bindPopup(popup_a53ebda461b6b09c5f4679dc37906db7)
+        ;
+
+        
+    
+    
+            var marker_a52549093c2ef9149b06d940ee805f86 = L.marker(
+                [33.7766381, -118.2610311],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_ff56c041f790b03c8eb8985612c569b2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_87da17f9d65709a4d4dfe34b60d8676e = $(`<div id="html_87da17f9d65709a4d4dfe34b60d8676e" style="width: 100.0%; height: 100.0%;"><b>Doors Of Hope</b><br>The agency provides shelter for single women in Los Angeles County.</div>`)[0];
+                popup_ff56c041f790b03c8eb8985612c569b2.setContent(html_87da17f9d65709a4d4dfe34b60d8676e);
+            
+        
+
+        marker_a52549093c2ef9149b06d940ee805f86.bindPopup(popup_ff56c041f790b03c8eb8985612c569b2)
+        ;
+
+        
+    
+    
+            var marker_be645398f3b95da194c01ab5664f41c9 = L.marker(
+                [34.69538185, -118.1415526],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_37224c0dfbf402f63b7bd07f14e9fffd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_125a5abb25316f34246fb7f8de6d60a9 = $(`<div id="html_125a5abb25316f34246fb7f8de6d60a9" style="width: 100.0%; height: 100.0%;"><b>Catalyst Foundation, The - Clinic</b><br>The foundation provides emergency food and HIV/AIDS services for Antelope Valley residents.</div>`)[0];
+                popup_37224c0dfbf402f63b7bd07f14e9fffd.setContent(html_125a5abb25316f34246fb7f8de6d60a9);
+            
+        
+
+        marker_be645398f3b95da194c01ab5664f41c9.bindPopup(popup_37224c0dfbf402f63b7bd07f14e9fffd)
+        ;
+
+        
+    
+    
+            var marker_859ad2323f0865cd7b64194fe4d67039 = L.marker(
+                [34.18719653, -118.4444811],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_7806182f11820123e4499fb7b832e13b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c37c2a306006a2b679b97b709e2434c4 = $(`<div id="html_c37c2a306006a2b679b97b709e2434c4" style="width: 100.0%; height: 100.0%;"><b>Central Lutheran Church - Van Nuys</b><br>The rescue mission provides emergency food, personal goods, and shelter services for homeless men, women and families in the San Fernando Valley.</div>`)[0];
+                popup_7806182f11820123e4499fb7b832e13b.setContent(html_c37c2a306006a2b679b97b709e2434c4);
+            
+        
+
+        marker_859ad2323f0865cd7b64194fe4d67039.bindPopup(popup_7806182f11820123e4499fb7b832e13b)
+        ;
+
+        
+    
+    
+            var marker_770102b90ee1c3dea4fcf0957e9ba3ea = L.marker(
+                [34.20486402, -118.3789674],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_2fdf464f67dd46b32f5b9e6445841b7d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0d6d00e99bbf6c3ae8a2d5d2802d8951 = $(`<div id="html_0d6d00e99bbf6c3ae8a2d5d2802d8951" style="width: 100.0%; height: 100.0%;"><b>San Pablo Lutheran Church - North Hollywood</b><br>The rescue mission provides emergency food, personal goods, and shelter services for homeless men, women and families in the San Fernando Valley.</div>`)[0];
+                popup_2fdf464f67dd46b32f5b9e6445841b7d.setContent(html_0d6d00e99bbf6c3ae8a2d5d2802d8951);
+            
+        
+
+        marker_770102b90ee1c3dea4fcf0957e9ba3ea.bindPopup(popup_2fdf464f67dd46b32f5b9e6445841b7d)
+        ;
+
+        
+    
+    
+            var marker_80b00e6f8e6bba7306765103b7fbad12 = L.marker(
+                [34.16503422, -118.3848122],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_67edcf9dd5695343578079123cc94210 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8dc1ba85961cc554f681b2b3367fc627 = $(`<div id="html_8dc1ba85961cc554f681b2b3367fc627" style="width: 100.0%; height: 100.0%;"><b>St. David's Episcopal Church - North Hollywood</b><br>The rescue mission provides emergency food, personal goods, and shelter services for homeless men, women and families in the San Fernando Valley.</div>`)[0];
+                popup_67edcf9dd5695343578079123cc94210.setContent(html_8dc1ba85961cc554f681b2b3367fc627);
+            
+        
+
+        marker_80b00e6f8e6bba7306765103b7fbad12.bindPopup(popup_67edcf9dd5695343578079123cc94210)
+        ;
+
+        
+    
+    
+            var marker_df1f96c378a741663f781052da2de0f4 = L.marker(
+                [33.95736058, -118.2779665],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_4bf25e97d63b89c17ed5be1da9f54d29 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4b0e20bcf0a92774b112c0acf700ee9f = $(`<div id="html_4b0e20bcf0a92774b112c0acf700ee9f" style="width: 100.0%; height: 100.0%;"><b>American Philanthropy Association - Don King Shelter</b><br>The agency provides emergency shelter for single women and men who live in Los Angeles County.</div>`)[0];
+                popup_4bf25e97d63b89c17ed5be1da9f54d29.setContent(html_4b0e20bcf0a92774b112c0acf700ee9f);
+            
+        
+
+        marker_df1f96c378a741663f781052da2de0f4.bindPopup(popup_4bf25e97d63b89c17ed5be1da9f54d29)
+        ;
+
+        
+    
+    
+            var marker_0e1bf83c294bb34bcecccecd789baf32 = L.marker(
+                [33.78200528, -118.2090207],
+                {}
+            ).addTo(map_9c2b2269c761b41c28e2a523e63bea36);
+        
+    
+        var popup_c95487ef9fc572a1e49546078d94b33d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e4d5b84b78d75e3a556cd60d01ee7619 = $(`<div id="html_e4d5b84b78d75e3a556cd60d01ee7619" style="width: 100.0%; height: 100.0%;"><b>Long Beach Rescue Mission - Lydia House Intake Site</b><br>The agency provides emergency food, shelter, clothing, counsel, spiritually-based adult rehabilitation transitional housing programs.</div>`)[0];
+                popup_c95487ef9fc572a1e49546078d94b33d.setContent(html_e4d5b84b78d75e3a556cd60d01ee7619);
+            
+        
+
+        marker_0e1bf83c294bb34bcecccecd789baf32.bindPopup(popup_c95487ef9fc572a1e49546078d94b33d)
+        ;
+
+        
+    
+</script>
+</html>
